@@ -31,7 +31,7 @@ async function main(): Promise<void> {
 
 async function getCID(path: number, row: number): Promise<string[] | null> {
 	const response = await axios.get(
-		`http://ec2-54-172-212-55.compute-1.amazonaws.com/api/v1/pgstac/search?collections=landsat-c2l1&query={"landsat:wrs_row":{"eq":"0${row}"}}&query={"landsat:wrs_path":{"eq":"0${path}"}}`,
+		`https://stac.easierdata.info/search?collections=landsat-c2l1&query={"landsat:wrs_row":{"eq":"0${row}"}}&query={"landsat:wrs_path":{"eq":"0${path}"}}`,
 		{
 			headers: {
 				'Content-Type': 'application/json'

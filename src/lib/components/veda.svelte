@@ -11,7 +11,7 @@
 	let caption: string;
 	let description: string;
 
-	let geojson_endpoint = 'http://ec2-54-172-212-55.compute-1.amazonaws.com/api/v1/pgstac/';
+	let geojson_endpoint = 'https://stac.easierdata.info/';
 	let dataset_endpoint: string;
 
 	const createExportContent = (): void => {

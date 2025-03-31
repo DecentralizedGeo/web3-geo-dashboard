@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const root_stac_url = 'http://ec2-54-172-212-55.compute-1.amazonaws.com/api/v1/pgstac';
+const root_stac_url = 'https://stac.easierdata.info';
 
 async function main(): Promise<void> {
 	const collections = await axios.get(`${root_stac_url}/collections`, {
