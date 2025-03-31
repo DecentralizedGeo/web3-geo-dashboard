@@ -66,16 +66,19 @@
 		const properties = feature.properties;
 		console.log(properties);
 
-		const response = await fetch(
-			`https://filecoin.tools/api/deals/list?page=1&per_page=20&selector=${properties.piece}&sort_by_column=status&sort_direction=-1`,
-			{
-				method: 'GET'
-			}
-		);
+		try {
+			const response = await fetch(
+				`https://api.tools.d.interplanetary.one/api/search?limit=10&page=1&filter=${properties.cid}&isActive=1`,
+				{
+					method: 'GET'
+				}
+			);
 
-		deals = await response.json();
-		/*deals = [];
-		console.log(deals);*/
+			deals = await response.json();
+			console.log(deals);
+		} catch (err) {
+			console.log(err);
+		}
 
 		providers = [];
 		const metadata = await getPopupMetadata(properties.cid);
@@ -620,8 +623,9 @@
 	}
 
 	onMount(async () => {
-		const stac = sessionStorage.getItem('stac');
-		const geojson = sessionStorage.getItem('geojson');
+		const urlParams = new URLSearchParams(window.location.search);
+		const stac = sessionStorage.getItem('stac') || urlParams.get('stac');
+		const geojson = sessionStorage.getItem('geojson') || urlParams.get('geojson');
 
 		if (stac && stac != '') {
 			stac_endpoint = stac;

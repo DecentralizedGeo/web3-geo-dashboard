@@ -17,7 +17,8 @@ This project renders spatial geometry defined by GeoJSON assets and Web3 enriche
 |        [Kubo RPC API](https://docs.ipfs.tech/reference/kubo/rpc/)         | Documentation for the API opened by IPFS nodes running Kubo       |
 | [IPFS Desktop Installation](https://docs.ipfs.tech/install/ipfs-desktop/) | Installation for IPFS Desktop, to easily spin up an IPFS node     |
 |  [Web3 Geo Extension](https://github.com/easierdata/web3-geo-extension)   | Repository of complementary dashboard chrome extension (REQUIRED) |
-| [Web3 Dashboard API](https://github.com/easierdata/easier-dashboard-api)  | Repository of API that serves                                     |
+| [Web3 Dashboard API](https://github.com/easierdata/easier-dashboard-api)  | Repository of API that serves IPFS metadata                       |
+|                    [VEDA Integration](./docs/veda.md)                     | Walkthrough of exporting NASA VEDA Frontmatter                    |
 
 ## Node Configuration
 
