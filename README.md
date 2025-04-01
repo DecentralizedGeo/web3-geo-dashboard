@@ -24,6 +24,18 @@ This project renders spatial geometry defined by GeoJSON assets and Web3 enriche
 
 In order to properly fetch metadata from IPFS such as the number of nodes that have a CID pinned as well as other interactions, you must have a properly configured IPFS node. To accept requests from the dashboard, update the `Access-Control-Allow-Origin` array under `HTTPHeaders` under `API`. For local development, add `http://127.0.0.1`, alternatively, you can accept requests from everywhere with `*` (this poses a security risk, do it at your own discretion)
 
+## Prerequisites
+
+An access token is needed to access the Mapbox web service resources with scope permissions enabled for `styles:tiles` and `styles:read`.
+
+1. Create a `.env` file in the project root with the following variables:
+
+```shell
+VITE_MAPBOX_TOKEN=<access token>
+```
+
+> NOTE: Details on creating tokens can be found [here](https://docs.mapbox.com/api/accounts/tokens/).
+
 ## Developing
 
 Once you've cloned the project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
