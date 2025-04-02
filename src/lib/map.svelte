@@ -21,7 +21,7 @@
 	let stac_api_layers: any[] = [];
 
 	let cid = '';
-	let stac_endpoint = 'http://ec2-54-172-212-55.compute-1.amazonaws.com/api/v1/pgstac/';
+	let stac_endpoint = 'https://stac.easierdata.info';
 	let geojson_endpoint =
 		'https://raw.githubusercontent.com/easierdata/web3-geo-dashboard/feat-custom-geojson/data_processing/cid_enriched.geojson';
 
