@@ -62,6 +62,31 @@
 		}
 	}
 
+	async function getIPFSMetadata(cid: string): Promise<number> {
+		const requestOptions: RequestInit = {
+			method: 'GET',
+			redirect: 'follow' as RequestRedirect
+		};
+
+		try {
+			const response = await fetch(
+				`https://ipfs-check-backend.ipfs.io/check?cid=${cid}&multiaddr=&ipniIndexer=https://cid.contact&timeoutSeconds=60`,
+				requestOptions
+			);
+			if (!response.ok) {
+				throw new Error(`Error fetching metadata for CID ${cid}: ${response.statusText}`);
+			}
+			const data = await response.json();
+
+			// return the number of objects where connectionError is ""
+			const ipfsCount = data.filter((item: any) => item.connectionError === '').length;
+			return ipfsCount;
+		} catch (error) {
+			console.error(`Failed to fetch metadata for CID ${cid}:`, error);
+			return 0;
+		}
+	}
+
 	async function createPopupContent(feature: Web3EnrichedMapboxFeature): Promise<HTMLDivElement> {
 		const properties = feature.properties;
 		console.log(properties);
@@ -79,6 +104,8 @@
 		} catch (err) {
 			console.log(err);
 		}
+
+		const pinCount = await getIPFSMetadata(properties.cid);
 
 		providers = [];
 		const metadata = await getPopupMetadata(properties.cid);
@@ -102,7 +129,7 @@
 			day: 'numeric'
 		})}<br>
 		<span class="pins">Pinned on ${
-			metadata?.ipfs ?? 'N/A'
+			pinCount ?? 'N/A'
 		} IPFS nodes</span><br> <!-- Example of including metadata -->
 		Stored in ${
 			metadata?.Providers.length ?? 'N/A'
