@@ -10,6 +10,8 @@
 	import Accordion from './accordion.svelte';
 	import Searchbar from './components/searchbar.svelte';
 	import Veda from './components/veda.svelte';
+	import axios from 'axios';
+	import { Metadata } from '../utils/metadata';
 
 	let showModal = false;
 	let showVeda = false;
@@ -87,6 +89,31 @@
 		}
 	}
 
+	async function getFilecoinMetadata(cid: string): Promise<any> {
+		try {
+			const cidContactData = await axios.get(`https://cid.contact/cid/${cid}`, {
+				headers: {
+					'Content-Type': 'application/json'
+				}
+			});
+
+			// Fetch deal metadata
+			const meta = new Metadata();
+			const metadata = await meta.onSearch(cid);
+
+			return {
+				...metadata,
+				Providers:
+					cidContactData.status === 200
+						? cidContactData.data.MultihashResults[0].ProviderResults
+						: {}
+			};
+		} catch (error) {
+			console.error(`Failed to fetch metadata for CID ${cid}:`, error);
+			return {};
+		}
+	}
+
 	async function createPopupContent(feature: Web3EnrichedMapboxFeature): Promise<HTMLDivElement> {
 		const properties = feature.properties;
 		console.log(properties);
@@ -106,14 +133,15 @@
 		}
 
 		const pinCount = await getIPFSMetadata(properties.cid);
+		const filecoinMetadata = await getFilecoinMetadata(properties.cid);
 
 		providers = [];
-		const metadata = await getPopupMetadata(properties.cid);
-		if (!metadata) {
-			console.warn(`No metadata found for CID ${properties.cid}.`);
-		}
+		// const metadata = await getPopupMetadata(properties.cid);
+		// if (!metadata) {
+		// 	console.warn(`No metadata found for CID ${properties.cid}.`);
+		// }
 
-		providers = metadata?.Providers;
+		providers = filecoinMetadata?.Providers;
 
 		const content = document.createElement('div');
 		content.innerHTML = `
@@ -132,9 +160,11 @@
 			pinCount ?? 'N/A'
 		} IPFS nodes</span><br> <!-- Example of including metadata -->
 		Stored in ${
-			metadata?.Providers.length ?? 'N/A'
+			filecoinMetadata?.Providers.length ?? 'N/A'
 		} Filecoin Peers<br> <!-- Example of including metadata -->
-		${metadata?.unsealed ?? 'N/A'} unsealed copies available<br> <!-- Example of including metadata -->
+		${
+			filecoinMetadata?.unsealed ?? 'N/A'
+		} unsealed copies available<br> <!-- Example of including metadata -->
 		<div class="MetamaskContainer">
 			<div class="connectedState" style="display: none;">Connected</div>
 		</div>
