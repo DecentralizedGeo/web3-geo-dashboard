@@ -51,7 +51,8 @@
 
 		try {
 			const response = await fetch(
-				`https://ipfs-check-backend.ipfs.io/check?cid=${cid}&multiaddr=&ipniIndexer=https://cid.contact&timeoutSeconds=60`,
+				// `https://ipfs-check-backend.ipfs.io/check?cid=${cid}&multiaddr=&ipniIndexer=https://cid.contact&timeoutSeconds=60`,
+				`https://delegated-ipfs.dev/routing/v1/providers/${cid}`,
 				requestOptions
 			);
 			if (!response.ok) {
@@ -60,7 +61,12 @@
 			const data = await response.json();
 
 			// return the number of objects where connectionError is ""
-			const ipfsCount = data.filter((item: any) => item.connectionError === '').length;
+			// const ipfsCount = data.filter((item: any) => item.ID && item.ConnectionError === "").length
+			// alternatively return the number of objects where ID is not null
+			// const ipfsCount = data && Array.isArray(data) ? data.filter((item: any) => item.ID).length : 0;
+
+			// Return count from delegated-ipfs endpoint
+			const ipfsCount = data.Providers ? data.Providers.length : 0;
 			return ipfsCount;
 		} catch (error) {
 			console.error(`Failed to fetch metadata for CID ${cid}:`, error);
