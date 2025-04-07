@@ -3,15 +3,16 @@
 	import mapboxgl, { Map } from 'mapbox-gl';
 	import { ethers } from 'ethers';
 	import { onMount, onDestroy } from 'svelte';
-	import type { Web3EnrichedMapboxFeature, metadata, RequestRedirect, RequestInit } from '../types';
-	import Modal from './modal.svelte';
+	import type { Web3EnrichedMapboxFeature, RequestRedirect, RequestInit } from '../types';
+	// @ts-ignore
+	import Modal from './modal.svelte'; // @ts-ignore
 	import AddLayer from './components/addLayer.svelte';
-	import Sidebar from './components/sidebar.svelte';
+	import Sidebar from './components/sidebar.svelte'; // @ts-ignore
 	import Accordion from './accordion.svelte';
 	import Searchbar from './components/searchbar.svelte';
 	import Veda from './components/veda.svelte';
-	import axios from 'axios';
-	import { Metadata } from '../utils/metadata';
+	import { retrieveMetadata } from '../utils/metadata';
+	import { geocodeQuery } from '../utils/geocode';
 
 	let showModal = false;
 	let showVeda = false;
@@ -42,28 +43,6 @@
 
 	let map: Map;
 
-	async function getPopupMetadata(cid: string): Promise<metadata | undefined> {
-		const requestOptions: RequestInit = {
-			method: 'GET',
-			redirect: 'follow' as RequestRedirect
-		};
-
-		try {
-			const response = await fetch(
-				`https://easier-dashboard-api.vercel.app/api/metadata/${cid}`,
-				requestOptions
-			);
-			if (!response.ok) {
-				throw new Error(`Error fetching metadata for CID ${cid}: ${response.statusText}`);
-			}
-			const data: metadata = await response.json();
-			return data;
-		} catch (error) {
-			console.error(`Failed to fetch metadata for CID ${cid}:`, error);
-			return undefined;
-		}
-	}
-
 	async function getIPFSMetadata(cid: string): Promise<number> {
 		const requestOptions: RequestInit = {
 			method: 'GET',
@@ -89,31 +68,6 @@
 		}
 	}
 
-	async function getFilecoinMetadata(cid: string): Promise<any> {
-		try {
-			const cidContactData = await axios.get(`https://cid.contact/cid/${cid}`, {
-				headers: {
-					'Content-Type': 'application/json'
-				}
-			});
-
-			// Fetch deal metadata
-			const meta = new Metadata();
-			const metadata = await meta.onSearch(cid);
-
-			return {
-				...metadata,
-				Providers:
-					cidContactData.status === 200
-						? cidContactData.data.MultihashResults[0].ProviderResults
-						: {}
-			};
-		} catch (error) {
-			console.error(`Failed to fetch metadata for CID ${cid}:`, error);
-			return {};
-		}
-	}
-
 	async function createPopupContent(feature: Web3EnrichedMapboxFeature): Promise<HTMLDivElement> {
 		const properties = feature.properties;
 		console.log(properties);
@@ -132,39 +86,26 @@
 			console.log(err);
 		}
 
-		const pinCount = await getIPFSMetadata(properties.cid);
-		const filecoinMetadata = await getFilecoinMetadata(properties.cid);
+		const metadata = await retrieveMetadata(properties.PATH, properties.ROW, stac_endpoint);
+		console.log(`Metadata: ${JSON.stringify(metadata)}`);
 
-		providers = [];
-		// const metadata = await getPopupMetadata(properties.cid);
-		// if (!metadata) {
-		// 	console.warn(`No metadata found for CID ${properties.cid}.`);
-		// }
-
-		providers = filecoinMetadata?.Providers;
+		const pinCount = await getIPFSMetadata(metadata.cids.ipfs);
 
 		const content = document.createElement('div');
 		content.innerHTML = `
 		<b>Inspect Tile</b><br>
 		<span class="name-text">Name: ${properties.filename}</span><br>
-		<span class="cid-text">Filecoin CID: ${properties.cid}</span><br>
-		<span class="ipfs-cid-text">IPFS CID: ${properties.ipfs_cid}</span><br>
+		<span class="cid-text">Filecoin CID: ${metadata.cids.filecoin}</span><br>
+		<span class="ipfs-cid-text">IPFS CID: ${metadata.cids.ipfs}</span><br>
 		Row: ${properties.ROW}<br>
 		Path: ${properties.PATH}<br>
-		Date acquired: ${new Date(properties.datetime).toLocaleDateString('en-US', {
+		Date acquired: ${new Date(metadata.cids.datetime).toLocaleDateString('en-US', {
 			year: 'numeric',
 			month: 'long',
 			day: 'numeric'
 		})}<br>
-		<span class="pins">Pinned on ${
-			pinCount ?? 'N/A'
-		} IPFS nodes</span><br> <!-- Example of including metadata -->
-		Stored in ${
-			filecoinMetadata?.Providers.length ?? 'N/A'
-		} Filecoin Peers<br> <!-- Example of including metadata -->
-		${
-			filecoinMetadata?.unsealed ?? 'N/A'
-		} unsealed copies available<br> <!-- Example of including metadata -->
+		<span class="pins">Pinned on ${pinCount ?? 'N/A'} IPFS nodes</span><br>
+		Stored in ${metadata?.filecoin ?? 'N/A'} Filecoin Deals<br> 
 		<div class="MetamaskContainer">
 			<div class="connectedState" style="display: none;">Connected</div>
 		</div>
@@ -529,11 +470,15 @@
 			['==', 'ROW', feature.properties.ROW]
 		]);
 
-		const popup_content = await createPopupContent(feature);
+		// const popup_content = await createPopupContent(feature);
 		const popup = new mapboxgl.Popup()
 			.setLngLat(coordinates)
-			.setDOMContent(popup_content)
+			.setDOMContent(document.createTextNode('Loading metadata...'))
 			.addTo(map);
+
+		createPopupContent(feature).then((popupContent) => {
+			popup.setDOMContent(popupContent);
+		});
 
 		popup.on('close', function () {
 			map.setFilter(id, ['all', ['==', 'PATH', ''], ['==', 'ROW', '']]);
@@ -613,18 +558,12 @@
 		} else if (searchTerm.includes(' ') && searchTerm.length > 3) {
 			console.log(searchTerm);
 
-			const response = await fetch(
-				`https://easier-dashboard-m5eh5d9da-matthewnanas.vercel.app/api/geocode/${searchTerm}`
-			);
-			if (!response.ok) {
-				throw new Error(`Error fetching geolocation for ${searchTerm}: ${response.statusText}`);
-			}
-			const data = await response.json();
+			const pathrow = await geocodeQuery(searchTerm);
 
 			map.setFilter('LANDSAT_SCENE_OUTLINES-highlighted', [
 				'all',
-				['==', 'PATH', data.path],
-				['==', 'ROW', data.row]
+				['==', 'PATH', pathrow.path],
+				['==', 'ROW', pathrow.row]
 			]);
 		} else {
 			// Clear filter

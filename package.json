@@ -50,9 +50,10 @@
 		"@testing-library/svelte": "^4.0.3",
 		"@vitest/ui": "^0.33.0",
 		"axios": "^1.4.0",
+		"cbor": "^9.0.2",
 		"esbuild": "^0.19.3",
-		"cbor": "^9.0.1",
 		"ethers": "^6.9.2",
-		"mapbox-gl": "^2.15.0"
+		"mapbox-gl": "^2.15.0",
+		"nofilter": "^5.0.0"
 	}
 }
