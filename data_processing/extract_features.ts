@@ -5,8 +5,6 @@ interface Feature {
 	type: string;
 	properties: {
 		item_id: string;
-		PATH: number;
-		ROW: number;
 		cid: string;
 		s3: string;
 		filename: string;
