@@ -68,18 +68,26 @@ export async function extractAndSaveFeatures(
 			const cid = feature.assets?.[assetName]?.alternate?.ipfs?.cid || '';
 			const piece_cid = feature.assets?.[assetName]?.alternate?.filecoin?.piece_cid || '';
 
+			// Create a properties object and add each of the consts from above into it
+			const feat_properties = {
+				item_id: item_id,
+				cid: cid,
+				s3: s3,
+				filename: filename,
+				piece_cid: piece_cid,
+				datetime: feature.properties.datetime || ''
+			};
+
+			// Grab the collections properties from the features
+			if (feature.collection === 'landsat-c2l1') {
+				feat_properties['PATH'] = parseInt(feature.properties['landsat:wrs_path'] || '0', 10);
+				feat_properties['ROW'] = parseInt(feature.properties['landsat:wrs_row'] || '0', 10);
+			}
+
+			// Create the new feature object
 			return {
 				type: 'Feature',
-				properties: {
-					item_id: item_id,
-					PATH: parseInt(feature.properties['landsat:wrs_path'] || '0', 10),
-					ROW: parseInt(feature.properties['landsat:wrs_row'] || '0', 10),
-					cid: cid,
-					datetime: feature.properties.datetime || '',
-					s3: s3,
-					filename: filename,
-					piece_cid: piece_cid
-				},
+				properties: feat_properties,
 				geometry: feature.geometry
 			} as Feature;
 		});
