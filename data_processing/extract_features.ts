@@ -26,7 +26,7 @@ async function fetchGeoJSONFromURL(url: string): Promise<any> {
 	}
 }
 
-async function extractAndSaveFeatures(
+export async function extractAndSaveFeatures(
 	input: string,
 	outputFile: string,
 	isURL: boolean,
