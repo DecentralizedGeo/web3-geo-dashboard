@@ -26,7 +26,9 @@
 	let cid = '';
 	let stac_endpoint = 'https://stac.easierdata.info';
 	let geojson_endpoint =
-		'https://raw.githubusercontent.com/easierdata/web3-geo-dashboard/feat-custom-geojson/data_processing/cid_enriched.geojson';
+		'https://raw.githubusercontent.com/easierdata/web3-geo-dashboard/api-refactor/data_processing/cid_enriched.geojson';
+	// let geojson_endpoint =
+	// 	'https://raw.githubusercontent.com/easierdata/web3-geo-dashboard/api-refactor/data_processing/reformatted-features-demo.geojson';
 
 	let deals: any = {};
 	let providers: any = [];
