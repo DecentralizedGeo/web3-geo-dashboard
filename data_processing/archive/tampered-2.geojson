@@ -1,0 +1,41 @@
+{
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:EPSG::4269"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"PATH": 38,
+				"ROW": 38,
+				"cid": "bafybeihxj25wwdhihrdv5qfblf4lyysywzr4n44cvbuha5ye3wpzcl5qfu",
+				"datetime": "2022-04-23T18:06:45.767485Z",
+				"s3": "s3://usgs-landsat/collection02/level-1/standard/oli-tirs/2022/038/029/LC09_L1GT_038029_20220423_20220423_02_T2/LC09_L1GT_038029_20220423_20220423_02_T2_SAA.TIF",
+				"filename": "LC09_L1GT_038029_20220423_20220423_02_T2_SAA.TIF",
+				"ipfs_cid": "bafybeia7xnkynddunc7yplibfnqvuvlwoidq4j2hoo5gexbfvddngsmxf4"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[-115.6448870415302, 31.126883583132244],
+						[-115.645, 31.1269],
+						[-115.63946587014358, 31.14835823376635],
+						[-115.62571941450886, 31.201659234306913],
+						[-115.27431670030518, 32.564200732816666],
+						[-115.255, 32.6391],
+						[-113.317, 32.3574],
+						[-113.32861897774514, 32.315687869894944],
+						[-113.71621149641174, 30.92423072788181],
+						[-113.737, 30.8496],
+						[-115.6448870415302, 31.126883583132244]
+					]
+				]
+			}
+		}
+	]
+}
