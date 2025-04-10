@@ -48,16 +48,22 @@ export async function extractAndSaveFeatures(
 		const features = jsonData.features.map((feature: any) => {
 			const item_id = feature.id;
 
-			// This accounts for the GEDI dataset where the asset name also includes part of the filename
-			// This is a hacky workaround to get the correct asset name
-			if (assetName.includes('gov/protected/')) {
-				const assetKey =
-					Object.keys(feature.assets).find((key) => key.includes(assetName)) || assetName;
-				assetName = assetKey;
+			if (feature.collection.includes('GEDI')) {
+				// Find the asset key that contains 'gov/protected/'
+				const assetKey = Object.keys(feature.assets).find(
+					(key) => key.includes('gov/protected/')
+					// console.log(`Found asset key: ${key} for feature with ID: ${item_id}`);
+				);
+
+				if (!assetKey) {
+					console.warn(`No 'gov/protected/' asset found for feature with ID: ${item_id}`);
+					return null; // Skip this feature if no matching asset is found
+				}
+				// console.log(`Found asset key: ${assetKey} for feature with ID}`);
+				assetName = assetKey; // Use the found asset key
 			}
 
-			const s3 = feature.assets?.[assetName]?.alternate?.S3?.href || '';
-			// const s3 = feature.assets?.[assetName]?.alternate?.s3?.href || '';
+			const s3 = feature.assets?.[assetName]?.alternate?.s3?.href || '';
 			const filename = s3.split('/').pop() || '';
 			const cid = feature.assets?.[assetName]?.alternate?.ipfs?.cid || '';
 			const piece_cid = feature.assets?.[assetName]?.alternate?.filecoin?.piece_cid || '';
