@@ -100,6 +100,7 @@
 		const content = document.createElement('div');
 		content.innerHTML = `
 		<b>Inspect Tile</b><br>
+		<span class="name-text">Item ID: ${properties.item_id}</span><br>
 		<span class="name-text">Name: ${properties.filename}</span><br>
 		<span class="cid-text">Filecoin CID: ${metadata.cids.filecoin}</span><br>
 		<span class="ipfs-cid-text">IPFS CID: ${metadata.cids.ipfs}</span><br>
