@@ -45,52 +45,54 @@ export async function extractAndSaveFeatures(
 		}
 
 		// Extract and reformat features
-		const features = jsonData.features.map((feature: any) => {
-			const item_id = feature.id;
+		const features = jsonData.features
+			.map((feature: any) => {
+				const item_id = feature.id;
 
-			if (feature.collection.includes('GEDI')) {
-				// Find the asset key that contains 'gov/protected/'
-				const assetKey = Object.keys(feature.assets).find(
-					(key) => key.includes('gov/protected/')
-					// console.log(`Found asset key: ${key} for feature with ID: ${item_id}`);
-				);
+				if (feature.collection.includes('GEDI')) {
+					// Find the asset key that contains 'gov/protected/'
+					const assetKey = Object.keys(feature.assets).find(
+						(key) => key.includes('gov/protected/')
+						// console.log(`Found asset key: ${key} for feature with ID: ${item_id}`);
+					);
 
-				if (!assetKey) {
-					console.warn(`No 'gov/protected/' asset found for feature with ID: ${item_id}`);
-					return null; // Skip this feature if no matching asset is found
+					if (!assetKey) {
+						console.warn(`No 'gov/protected/' asset found for feature with ID: ${item_id}`);
+						return null; // Skip this feature if no matching asset is found
+					}
+					// console.log(`Found asset key: ${assetKey} for feature with ID}`);
+					assetName = assetKey; // Use the found asset key
 				}
-				// console.log(`Found asset key: ${assetKey} for feature with ID}`);
-				assetName = assetKey; // Use the found asset key
-			}
 
-			const s3 = feature.assets?.[assetName]?.alternate?.s3?.href || '';
-			const filename = s3.split('/').pop() || '';
-			const cid = feature.assets?.[assetName]?.alternate?.ipfs?.cid || '';
-			const piece_cid = feature.assets?.[assetName]?.alternate?.filecoin?.piece_cid || '';
+				const s3 = feature.assets?.[assetName]?.alternate?.s3?.href || '';
+				const filename = s3.split('/').pop() || '';
+				const cid = feature.assets?.[assetName]?.alternate?.ipfs?.cid || '';
+				const piece_cid = feature.assets?.[assetName]?.alternate?.filecoin?.piece_cid || '';
 
-			// Create a properties object and add each of the consts from above into it
-			const feat_properties = {
-				item_id: item_id,
-				cid: cid,
-				s3: s3,
-				filename: filename,
-				piece_cid: piece_cid,
-				datetime: feature.properties.datetime || ''
-			};
+				// Create a properties object and add each of the consts from above into it
+				const feat_properties = {
+					item_id: item_id,
+					cid: cid,
+					s3: s3,
+					filename: filename,
+					piece_cid: piece_cid,
+					datetime: feature.properties.datetime || ''
+				};
 
-			// Grab the collections properties from the features
-			if (feature.collection === 'landsat-c2l1') {
-				feat_properties['PATH'] = parseInt(feature.properties['landsat:wrs_path'] || '0', 10);
-				feat_properties['ROW'] = parseInt(feature.properties['landsat:wrs_row'] || '0', 10);
-			}
+				// Grab the collections properties from the features
+				if (feature.collection === 'landsat-c2l1') {
+					feat_properties['PATH'] = parseInt(feature.properties['landsat:wrs_path'] || '0', 10);
+					feat_properties['ROW'] = parseInt(feature.properties['landsat:wrs_row'] || '0', 10);
+				}
 
-			// Create the new feature object
-			return {
-				type: 'Feature',
-				properties: feat_properties,
-				geometry: feature.geometry
-			} as Feature;
-		});
+				// Create the new feature object
+				return {
+					type: 'Feature',
+					properties: feat_properties,
+					geometry: feature.geometry
+				} as Feature;
+			})
+			.filter((feature) => feature !== null); // Filter out null features
 
 		// Create the new GeoJSON object
 		const geojson = {
