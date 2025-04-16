@@ -79,10 +79,9 @@
 	async function createPopupContent(feature: Web3EnrichedMapboxFeature): Promise<HTMLDivElement> {
 		const properties = feature.properties;
 		console.log(properties);
-
 		try {
 			const response = await fetch(
-				`https://api.tools.d.interplanetary.one/api/search?limit=10&page=1&filter=${properties.cid}&isActive=1`,
+				`https://api.tools.d.interplanetary.one/api/search?limit=10&page=1&filter=${properties.piece_cid}&isActive=1`,
 				{
 					method: 'GET'
 				}
@@ -98,14 +97,14 @@
 		// const metadata = await retrieveMetadata(properties.PATH, properties.ROW, stac_endpoint);
 		// console.log(`Metadata: ${JSON.stringify(metadata)}`);
 
-		const pinCount = await getIPFSMetadata(properties.ipfs_cid);
-
+		const pinCount = await getIPFSMetadata(properties.cid);
+		let deals_count = deals.data ? deals.data.length : 0;
 		const content = document.createElement('div');
 		content.innerHTML = `
 		<b>Inspect Tile</b><br>
 		<span class="name-text">Item ID: ${properties.item_id}</span><br>
 		<span class="name-text">Name: ${properties.filename}</span><br>
-		<span class="cid-text">Filecoin CID: ${properties.cid}</span><br>
+		<span class="cid-text">Filecoin CID: ${properties.piece_cid}</span><br>
 		<span class="ipfs-cid-text">IPFS CID: ${properties.cid}</span><br>
 		Date acquired: ${new Date(properties.datetime).toLocaleDateString('en-US', {
 			year: 'numeric',
@@ -113,7 +112,7 @@
 			day: 'numeric'
 		})}<br>
 		<span class="pins">Pinned on ${pinCount ?? 'N/A'} IPFS nodes</span><br>
-		Stored in ${properties?.filecoin ?? 'N/A'} Filecoin Deals<br> 
+		Stored in ${deals_count ?? 'N/A'} Filecoin Deals<br> 
 		<div class="MetamaskContainer">
 			<div class="connectedState" style="display: none;">Connected</div>
 		</div>
