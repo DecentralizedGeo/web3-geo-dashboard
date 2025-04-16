@@ -9,6 +9,7 @@ interface CustomFeatureProperties {
 	datetime: ISODateString;
 	s3: string;
 	filename: string;
+	item_id: string;
 	// IPFS_NODES: number;
 	// FIL_DEALS: number;
 	// ON_S3: boolean;

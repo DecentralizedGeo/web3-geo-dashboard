@@ -94,27 +94,26 @@
 			console.log(err);
 		}
 
-		const metadata = await retrieveMetadata(properties.PATH, properties.ROW, stac_endpoint);
-		console.log(`Metadata: ${JSON.stringify(metadata)}`);
+		console.log(properties);
+		// const metadata = await retrieveMetadata(properties.PATH, properties.ROW, stac_endpoint);
+		// console.log(`Metadata: ${JSON.stringify(metadata)}`);
 
-		const pinCount = await getIPFSMetadata(metadata.cids.ipfs);
+		const pinCount = await getIPFSMetadata(properties.ipfs_cid);
 
 		const content = document.createElement('div');
 		content.innerHTML = `
 		<b>Inspect Tile</b><br>
 		<span class="name-text">Item ID: ${properties.item_id}</span><br>
 		<span class="name-text">Name: ${properties.filename}</span><br>
-		<span class="cid-text">Filecoin CID: ${metadata.cids.filecoin}</span><br>
-		<span class="ipfs-cid-text">IPFS CID: ${metadata.cids.ipfs}</span><br>
-		Row: ${properties.ROW}<br>
-		Path: ${properties.PATH}<br>
-		Date acquired: ${new Date(metadata.cids.datetime).toLocaleDateString('en-US', {
+		<span class="cid-text">Filecoin CID: ${properties.cid}</span><br>
+		<span class="ipfs-cid-text">IPFS CID: ${properties.cid}</span><br>
+		Date acquired: ${new Date(properties.datetime).toLocaleDateString('en-US', {
 			year: 'numeric',
 			month: 'long',
 			day: 'numeric'
 		})}<br>
 		<span class="pins">Pinned on ${pinCount ?? 'N/A'} IPFS nodes</span><br>
-		Stored in ${metadata?.filecoin ?? 'N/A'} Filecoin Deals<br> 
+		Stored in ${properties?.filecoin ?? 'N/A'} Filecoin Deals<br> 
 		<div class="MetamaskContainer">
 			<div class="connectedState" style="display: none;">Connected</div>
 		</div>
