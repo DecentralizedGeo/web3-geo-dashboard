@@ -11,8 +11,8 @@
 	import Accordion from './accordion.svelte';
 	import Searchbar from './components/searchbar.svelte';
 	import Veda from './components/veda.svelte';
-	import { retrieveMetadata } from '../utils/metadata';
 	import { geocodeQuery } from '../utils/geocode';
+	import SwapLayer from './components/swapLayer.svelte';
 
 	let showModal = false;
 	let showVeda = false;
@@ -40,6 +40,12 @@
 	let selectedFeatures: any[] = [];
 	let cidArray: string[] = [];
 	let exportfeatures: any[] = [];
+
+	// Layer management
+	let geoJSONOptions: { value: string; label: string }[] = [];
+	let showSwapLayer = false;
+	let swapGeoJSON = '';
+	let selectedSwapGeoJSON = '';
 
 	let autocomplete: any;
 
@@ -616,6 +622,27 @@
 		}
 	}
 
+	class SwapLayerButton {
+		onAdd() {
+			const div = document.createElement('div');
+			div.className = 'mapboxgl-ctrl mapboxgl-ctrl-group';
+			div.innerHTML = `
+            <button title="Swap Base Layer">
+                <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="font-size: 20px;">
+                    <path d="M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z"></path>
+                </svg>
+            </button>`;
+			div.addEventListener('contextmenu', (e) => e.preventDefault());
+			div.addEventListener('click', () => {
+				showSwapLayer = true;
+				swapGeoJSON = '';
+				selectedSwapGeoJSON = '';
+			});
+
+			return div;
+		}
+	}
+
 	function handle_delete(url: string) {
 		console.log(url);
 		const index = stac_api_layers.findIndex((layer: any) => layer.url === url);
@@ -672,9 +699,11 @@
 		});
 
 		const addLayerButton: any = new LayerButton();
+		const swapLayerButton: any = new SwapLayerButton();
 		const defaultControls = new mapboxgl.NavigationControl();
 		map.addControl(defaultControls, 'top-right');
 		map.addControl(addLayerButton, 'bottom-right');
+		map.addControl(swapLayerButton, 'bottom-right');
 
 		map.on('load', () => {
 			canvas = map.getCanvasContainer();
@@ -716,7 +745,86 @@
 				}
 			});
 		});
+
+		try {
+			const response = await fetch('/api/geojson-files');
+			geoJSONOptions = await response.json();
+		} catch (error) {
+			console.error('Failed to fetch GeoJSON files for AddLayer:', error);
+		}
 	});
+
+	function handleSwapGeoJSONSelect(event) {
+		const selected = event.target.value;
+		selectedSwapGeoJSON = selected;
+		if (selected) {
+			swapGeoJSON = selected;
+		}
+	}
+
+	async function swapBaseLayer() {
+		if (!swapGeoJSON) {
+			alert('Please select a GeoJSON file to swap to');
+			return;
+		}
+
+		try {
+			const response = await fetch(swapGeoJSON);
+			const geoJsonData = await response.json();
+
+			if (map.getLayer('LANDSAT_SCENE_OUTLINES-highlighted')) {
+				map.removeLayer('LANDSAT_SCENE_OUTLINES-highlighted');
+			}
+			if (map.getLayer('LANDSAT_SCENE_OUTLINES-layer')) {
+				map.removeLayer('LANDSAT_SCENE_OUTLINES-layer');
+			}
+			if (map.getSource('LANDSAT_SCENE_OUTLINES')) {
+				map.removeSource('LANDSAT_SCENE_OUTLINES');
+			}
+
+			geojson_endpoint = swapGeoJSON;
+
+			map.addSource('LANDSAT_SCENE_OUTLINES', {
+				type: 'geojson',
+				data: geoJsonData
+			});
+
+			map.addLayer({
+				id: 'LANDSAT_SCENE_OUTLINES-layer',
+				type: 'fill',
+				source: 'LANDSAT_SCENE_OUTLINES',
+				paint: {
+					'fill-color': 'grey',
+					'fill-opacity': 0.2,
+					'fill-outline-color': 'black'
+				}
+			});
+
+			map.addLayer({
+				id: 'LANDSAT_SCENE_OUTLINES-highlighted',
+				type: 'fill',
+				source: 'LANDSAT_SCENE_OUTLINES',
+				paint: {
+					'fill-outline-color': 'black',
+					'fill-color': '#484896',
+					'fill-opacity': 0.75
+				},
+				filter: ['all', ['==', 'PATH', ''], ['==', 'ROW', '']]
+			});
+
+			map.on('click', 'LANDSAT_SCENE_OUTLINES-layer', (e) => handleClick(e, map) as any);
+			map.on('mouseenter', 'LANDSAT_SCENE_OUTLINES-layer', handleMouseEnter);
+			map.on('mouseleave', 'LANDSAT_SCENE_OUTLINES-layer', handleMouseLeave);
+
+			selectedFeatures = [];
+			cidArray = [];
+
+			showSwapLayer = false;
+		} catch (error) {
+			console.error('Failed to swap GeoJSON layer:', error);
+			alert('Failed to swap GeoJSON layer.');
+		}
+	}
 
 	function onPlaceChanged() {
 		let address = autocomplete.getPlace();
@@ -854,6 +962,26 @@
 		<button style="margin-top: 5px;" on:click={async () => await addNewLayer()}>Add Layer</button>
 	</form>
 </AddLayer>
+
+<SwapLayer bind:showSwapLayer>
+	<h3 slot="header">Swap Base Layer</h3>
+	<form>
+		<select
+			class="url-input"
+			on:change={handleSwapGeoJSONSelect}
+			bind:value={selectedSwapGeoJSON}
+			style="width: 100%;"
+		>
+			<option value="">Select a GeoJSON to swap to...</option>
+			{#each geoJSONOptions as option}
+				<option value={option.value}>{option.label}</option>
+			{/each}
+		</select>
+
+		<br />
+		<button style="margin-top: 15px;" on:click={swapBaseLayer}>Swap Layer</button>
+	</form>
+</SwapLayer>
 
 {#if selectedFeatures.length > 0 || stac_api_layers.length > 0}
 	<Sidebar
