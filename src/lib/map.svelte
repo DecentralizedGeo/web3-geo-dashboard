@@ -107,18 +107,41 @@
 		let deals_count = deals.data ? deals.data.length : 0;
 		const content = document.createElement('div');
 		content.innerHTML = `
-		<b>Inspect Tile</b><br>
-		<span class="name-text">Item ID: ${properties.item_id}</span><br>
-		<span class="name-text">Name: ${properties.filename}</span><br>
-		<span class="cid-text">Filecoin CID: ${properties.piece_cid}</span><br>
-		<span class="ipfs-cid-text">IPFS CID: ${properties.cid}</span><br>
-		Date acquired: ${new Date(properties.datetime).toLocaleDateString('en-US', {
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">Item ID:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.item_id
+			}</div>
+		</div>
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">Name:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.filename
+			}</div>
+		</div>
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">Filecoin CID:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.piece_cid
+			}</div>
+		</div>
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">IPFS CID:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.cid
+			}</div>
+		</div>
+		<strong style="font-size: 1.1em;">Date acquired:</strong> ${new Date(
+			properties.datetime
+		).toLocaleDateString('en-US', {
 			year: 'numeric',
 			month: 'long',
 			day: 'numeric'
 		})}<br>
-		<span class="pins">Pinned on ${pinCount ?? 'N/A'} IPFS nodes</span><br>
-		Stored in ${deals_count ?? 'N/A'} Filecoin Deals<br> 
+		<span class="pins"><strong style="font-size: 1.1em;">Pinned on:</strong> ${
+			pinCount ?? 'N/A'
+		} IPFS nodes</span><br>
+		<strong style="font-size: 1.1em;">Stored in:</strong> ${deals_count ?? 'N/A'} Filecoin Deals<br> 
 		<div class="MetamaskContainer">
 			<div class="connectedState" style="display: none;">Connected</div>
 		</div>
