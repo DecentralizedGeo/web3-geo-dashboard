@@ -431,7 +431,7 @@
 
 			selectedFeatures = features;
 			features.forEach((feature) => {
-				if (feature.properties) cidArray.push(feature.properties.ipfs_cid);
+				if (feature.properties) cidArray.push(feature.properties.cid);
 			});
 
 			const mergedPathRows = features.map(
