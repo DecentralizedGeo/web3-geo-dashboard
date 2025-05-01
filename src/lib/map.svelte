@@ -120,16 +120,21 @@
 			}</div>
 		</div>
 		<div class="popup-item">
-			<strong style="font-size: 1.1em;">Filecoin CID:</strong>
+			<strong style="font-size: 1.1em;">Filecoin Piece CID:</strong>
 			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
 				properties.piece_cid
 			}</div>
 		</div>
 		<div class="popup-item">
 			<strong style="font-size: 1.1em;">IPFS CID:</strong>
-			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
-				properties.cid
-			}</div>
+			<a 
+				href="https://gateway.easierdata.info/ipfs/${properties.cid}?filename=${encodeURIComponent(
+			properties.filename
+		)}" 
+				target="_blank" 
+				rel="noopener noreferrer"
+				style="display: block; background-color: #282c34; color: #7eb6ff; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word; text-decoration: none;"
+			>${properties.cid}</a>
 		</div>
 		<strong style="font-size: 1.1em;">Date acquired:</strong> ${new Date(
 			properties.datetime
