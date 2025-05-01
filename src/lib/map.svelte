@@ -136,7 +136,7 @@
 		codeButton.textContent = 'More';
 		codeButton.addEventListener('click', () => {
 			showModal = true;
-			cid = properties.ipfs_cid;
+			cid = properties.cid;
 		});
 
 		content.appendChild(pinButton);
@@ -754,7 +754,7 @@
 		}
 	});
 
-	function handleSwapGeoJSONSelect(event) {
+	function handleSwapGeoJSONSelect(event: any) {
 		const selected = event.target.value;
 		selectedSwapGeoJSON = selected;
 		if (selected) {
