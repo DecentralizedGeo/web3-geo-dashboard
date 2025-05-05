@@ -167,9 +167,28 @@
 			cid = properties.cid;
 		});
 
+		const downloadIpfs = document.createElement('button');
+		downloadIpfs.textContent = 'Download IPFS';
+		downloadIpfs.addEventListener('click', () => {
+			window.open(
+				`https://gateway.easierdata.info/ipfs/${properties.cid}?filename=${encodeURIComponent(
+					properties.filename
+				)}`,
+				'_blank'
+			);
+		});
+
+		const downloadFilecoin = document.createElement('button');
+		downloadFilecoin.textContent = 'Download Filecoin';
+		downloadFilecoin.addEventListener('click', () => {
+			window.open(`http://f02639429.infrafolio.com/ipfs/{cid}${properties.piece_cid}`, '_blank');
+		});
+
 		content.appendChild(pinButton);
 		content.appendChild(fetchButton);
 		content.appendChild(codeButton);
+		content.appendChild(downloadIpfs);
+		content.appendChild(downloadFilecoin);
 
 		return content;
 	}
