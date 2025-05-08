@@ -10,6 +10,7 @@ interface CustomFeatureProperties {
 	s3: string;
 	filename: string;
 	item_id: string;
+	collectionName: string;
 	// IPFS_NODES: number;
 	// FIL_DEALS: number;
 	// ON_S3: boolean;
