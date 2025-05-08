@@ -30,21 +30,31 @@ async function main(): Promise<void> {
 }
 
 async function getCID(path: number, row: number): Promise<string[] | null> {
-	const response = await axios.get(
-		`http://ec2-54-172-212-55.compute-1.amazonaws.com/api/v1/pgstac/search?collections=landsat-c2l1&query={"landsat:wrs_row":{"eq":"0${row}"}}&query={"landsat:wrs_path":{"eq":"0${path}"}}`,
-		{
-			headers: {
-				'Content-Type': 'application/json'
+	const response = await axios({
+		method: 'post',
+		url: `https://stac.easierdata.info/api/v1/pgstac/search`,
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		data: {
+			collections: ['landsat-c2l1'],
+			query: {
+				'landsat:wrs_row': {
+					eq: `0${row}`
+				},
+				'landsat:wrs_path': {
+					eq: `0${path}`
+				}
 			}
 		}
-	);
+	});
 
 	try {
 		return [
-			response.data.features[0].assets.SAA.alternate.Filecoin.href.split('/')[2],
+			response.data.features[0].assets.SAA.alternate.filecoin.cid,
 			response.data.features[0].properties.datetime,
 			response.data.features[0].assets.SAA.alternate['s3'].href,
-			response.data.features[0].assets.SAA.alternate.IPFS.href.split('/')[2]
+			response.data.features[0].assets.SAA.alternate.ipfs.cid
 		];
 	} catch {
 		console.log('CID Not found');
