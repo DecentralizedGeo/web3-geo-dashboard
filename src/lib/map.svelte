@@ -213,12 +213,6 @@
 			otherContainer.appendChild(codeButton);
 		}
 
-		// content.appendChild(pinButton);
-		// content.appendChild(fetchButton);
-		// content.appendChild(codeButton);
-		// content.appendChild(downloadIpfs);
-		// content.appendChild(downloadFilecoin);
-
 		return content;
 	}
 
