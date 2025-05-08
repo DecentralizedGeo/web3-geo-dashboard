@@ -10,6 +10,7 @@
 				"filename": "LC09_L1GT_047031_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-31T19:03:51.036842Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 47,
 				"ROW": 31
 			},
@@ -35,6 +36,7 @@
 				"filename": "LC09_L1GT_047030_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-31T19:03:27.150063Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 47,
 				"ROW": 30
 			},
@@ -60,6 +62,7 @@
 				"filename": "LC09_L1GT_047029_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-31T19:03:03.259047Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 47,
 				"ROW": 29
 			},
@@ -85,6 +88,7 @@
 				"filename": "LC09_L1GT_047028_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-31T19:02:39.376503Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 47,
 				"ROW": 28
 			},
@@ -110,6 +114,7 @@
 				"filename": "LC09_L1TP_047027_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-31T19:02:15.489725Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 47,
 				"ROW": 27
 			},
@@ -135,6 +140,7 @@
 				"filename": "LC09_L1TP_047026_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-31T19:01:51.607182Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 47,
 				"ROW": 26
 			},
@@ -160,6 +166,7 @@
 				"filename": "LC09_L1TP_031040_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:28:32.993421Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 40
 			},
@@ -185,6 +192,7 @@
 				"filename": "LC09_L1TP_031039_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:28:09.106640Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 39
 			},
@@ -210,6 +218,7 @@
 				"filename": "LC09_L1TP_031038_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-31T17:27:45.207153Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 38
 			},
@@ -235,6 +244,7 @@
 				"filename": "LC09_L1TP_031037_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:27:21.320374Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 37
 			},
@@ -260,6 +270,7 @@
 				"filename": "LC09_L1TP_031036_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:26:57.425123Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 36
 			},
@@ -285,6 +296,7 @@
 				"filename": "LC09_L1TP_031035_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:26:33.538344Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 35
 			},
@@ -310,6 +322,7 @@
 				"filename": "LC09_L1TP_031034_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:26:09.651565Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 34
 			},
@@ -335,6 +348,7 @@
 				"filename": "LC09_L1TP_031033_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:25:45.760548Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 33
 			},
@@ -360,6 +374,7 @@
 				"filename": "LC09_L1TP_031032_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:25:21.873770Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 32
 			},
@@ -385,6 +400,7 @@
 				"filename": "LC09_L1TP_031031_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:24:57.986990Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 31
 			},
@@ -410,6 +426,7 @@
 				"filename": "LC09_L1TP_031030_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:24:34.095974Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 30
 			},
@@ -435,6 +452,7 @@
 				"filename": "LC09_L1TP_031029_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:24:10.209195Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 29
 			},
@@ -460,6 +478,7 @@
 				"filename": "LC09_L1TP_031028_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:23:46.326651Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 28
 			},
@@ -485,6 +504,7 @@
 				"filename": "LC09_L1TP_031027_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:23:22.444109Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 27
 			},
@@ -510,6 +530,7 @@
 				"filename": "LC09_L1TP_031026_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-31T17:22:58.561566Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 31,
 				"ROW": 26
 			},
@@ -535,6 +556,7 @@
 				"filename": "LC09_L1TP_015043_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:50:51.531896Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 43
 			},
@@ -560,6 +582,7 @@
 				"filename": "LC09_L1TP_015042_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:50:27.636645Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 42
 			},
@@ -585,6 +608,7 @@
 				"filename": "LC09_L1TP_015041_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:50:03.737157Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 41
 			},
@@ -610,6 +634,7 @@
 				"filename": "LC09_L1TP_015040_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:49:39.846141Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 40
 			},
@@ -635,6 +660,7 @@
 				"filename": "LC09_L1TP_015037_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:48:28.173095Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 37
 			},
@@ -660,6 +686,7 @@
 				"filename": "LC09_L1TP_015036_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:48:04.282079Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 36
 			},
@@ -685,6 +712,7 @@
 				"filename": "LC09_L1TP_015035_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:47:40.386829Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 35
 			},
@@ -710,6 +738,7 @@
 				"filename": "LC09_L1TP_015034_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:47:16.504285Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 34
 			},
@@ -735,6 +764,7 @@
 				"filename": "LC09_L1TP_015033_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T15:46:52.613271Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 33
 			},
@@ -760,6 +790,7 @@
 				"filename": "LC09_L1TP_015032_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T15:46:28.722255Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 32
 			},
@@ -785,6 +816,7 @@
 				"filename": "LC09_L1TP_015031_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:46:04.839712Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 31
 			},
@@ -810,6 +842,7 @@
 				"filename": "LC09_L1TP_015030_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T15:45:40.948697Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 30
 			},
@@ -835,6 +868,7 @@
 				"filename": "LC09_L1TP_015029_20221031_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-31T15:45:17.066152Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 15,
 				"ROW": 29
 			},
@@ -860,6 +894,7 @@
 				"filename": "LC09_L1GT_136218_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:28:30.281554Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 218
 			},
@@ -885,6 +920,7 @@
 				"filename": "LC09_L1GT_136217_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:28:06.394776Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 217
 			},
@@ -910,6 +946,7 @@
 				"filename": "LC09_L1GT_136216_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:27:42.512231Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 216
 			},
@@ -935,6 +972,7 @@
 				"filename": "LC09_L1GT_136215_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:27:18.621217Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 215
 			},
@@ -960,6 +998,7 @@
 				"filename": "LC09_L1GT_136214_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:26:54.742910Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 214
 			},
@@ -985,6 +1024,7 @@
 				"filename": "LC09_L1GT_136213_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:26:30.851894Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 213
 			},
@@ -1010,6 +1050,7 @@
 				"filename": "LC09_L1GT_136212_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:26:06.965115Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 212
 			},
@@ -1035,6 +1076,7 @@
 				"filename": "LC09_L1GT_136211_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:25:43.074098Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 211
 			},
@@ -1060,6 +1102,7 @@
 				"filename": "LC09_L1GT_136209_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-31T05:24:55.296304Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 209
 			},
@@ -1085,6 +1128,7 @@
 				"filename": "LC09_L1GT_136208_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-31T05:24:31.401053Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 208
 			},
@@ -1110,6 +1154,7 @@
 				"filename": "LC09_L1GT_136207_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-31T05:24:07.514274Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 136,
 				"ROW": 207
 			},
@@ -1135,6 +1180,7 @@
 				"filename": "LC09_L1GT_120211_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-31T03:46:49.994597Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 120,
 				"ROW": 211
 			},
@@ -1160,6 +1206,7 @@
 				"filename": "LC09_L1GT_120205_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-31T03:44:26.631560Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 120,
 				"ROW": 205
 			},
@@ -1185,6 +1232,7 @@
 				"filename": "LC09_L1GT_104215_20221031_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-31T02:09:32.555403Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 104,
 				"ROW": 215
 			},
@@ -1210,6 +1258,7 @@
 				"filename": "LC09_L1TP_040037_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-30T18:22:59.109589Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 37
 			},
@@ -1235,6 +1284,7 @@
 				"filename": "LC09_L1TP_040036_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-30T18:22:35.222810Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 36
 			},
@@ -1260,6 +1310,7 @@
 				"filename": "LC09_L1TP_040035_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-30T18:22:11.327559Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 35
 			},
@@ -1285,6 +1336,7 @@
 				"filename": "LC09_L1TP_040034_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-30T18:21:47.440779Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 34
 			},
@@ -1310,6 +1362,7 @@
 				"filename": "LC09_L1TP_040030_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-30T18:20:11.889426Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 30
 			},
@@ -1335,6 +1388,7 @@
 				"filename": "LC09_L1TP_040029_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-30T18:19:48.006882Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 29
 			},
@@ -1360,6 +1414,7 @@
 				"filename": "LC09_L1TP_040028_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-30T18:19:24.120103Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 28
 			},
@@ -1385,6 +1440,7 @@
 				"filename": "LC09_L1TP_040027_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-30T18:19:00.237560Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 27
 			},
@@ -1410,6 +1466,7 @@
 				"filename": "LC09_L1TP_040026_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-30T18:18:36.359252Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 40,
 				"ROW": 26
 			},
@@ -1435,6 +1492,7 @@
 				"filename": "LC09_L1TP_024040_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-30T16:45:17.694659Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 40
 			},
@@ -1460,6 +1518,7 @@
 				"filename": "LC09_L1TP_024039_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-30T16:44:53.799408Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 39
 			},
@@ -1485,6 +1544,7 @@
 				"filename": "LC09_L1TP_024038_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-30T16:44:29.908392Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 38
 			},
@@ -1510,6 +1570,7 @@
 				"filename": "LC09_L1GT_024037_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-30T16:44:06.013140Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 37
 			},
@@ -1535,6 +1596,7 @@
 				"filename": "LC09_L1GT_024036_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-30T16:43:42.126361Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 36
 			},
@@ -1560,6 +1622,7 @@
 				"filename": "LC09_L1GT_024035_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-30T16:43:18.235345Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 35
 			},
@@ -1585,6 +1648,7 @@
 				"filename": "LC09_L1GT_024034_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-30T16:42:54.340094Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 34
 			},
@@ -1610,6 +1674,7 @@
 				"filename": "LC09_L1GT_024032_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-30T16:42:06.570771Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 32
 			},
@@ -1635,6 +1700,7 @@
 				"filename": "LC09_L1GT_024031_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-30T16:41:42.683992Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 31
 			},
@@ -1660,6 +1726,7 @@
 				"filename": "LC09_L1TP_024030_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-30T16:41:18.792977Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 30
 			},
@@ -1685,6 +1752,7 @@
 				"filename": "LC09_L1TP_024029_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-30T16:40:54.906198Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 29
 			},
@@ -1710,6 +1778,7 @@
 				"filename": "LC09_L1TP_024028_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-30T16:40:31.027890Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 28
 			},
@@ -1735,6 +1804,7 @@
 				"filename": "LC09_L1TP_024027_20221030_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-30T16:40:07.145345Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 24,
 				"ROW": 27
 			},
@@ -1760,6 +1830,7 @@
 				"filename": "LC09_L1GT_129218_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-30T04:45:14.948902Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 129,
 				"ROW": 218
 			},
@@ -1785,6 +1856,7 @@
 				"filename": "LC09_L1GT_129217_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-30T04:44:51.057886Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 129,
 				"ROW": 217
 			},
@@ -1810,6 +1882,7 @@
 				"filename": "LC09_L1GT_129216_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-30T04:44:27.179579Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 129,
 				"ROW": 216
 			},
@@ -1835,6 +1908,7 @@
 				"filename": "LC09_L1GT_129215_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-30T04:44:03.292799Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 129,
 				"ROW": 215
 			},
@@ -1860,6 +1934,7 @@
 				"filename": "LC09_L1GT_129214_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-30T04:43:39.401783Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 129,
 				"ROW": 214
 			},
@@ -1885,6 +1960,7 @@
 				"filename": "LC09_L1GT_129213_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-30T04:43:15.519241Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 129,
 				"ROW": 213
 			},
@@ -1910,6 +1986,7 @@
 				"filename": "LC09_L1GT_129212_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-30T04:42:51.628225Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 129,
 				"ROW": 212
 			},
@@ -1935,6 +2012,7 @@
 				"filename": "LC09_L1GT_129211_20221030_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-30T04:42:27.741446Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 129,
 				"ROW": 211
 			},
@@ -1960,6 +2038,7 @@
 				"filename": "LC09_L1TP_033038_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:40:07.659477Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 38
 			},
@@ -1985,6 +2064,7 @@
 				"filename": "LC09_L1TP_033037_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:39:43.764227Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 37
 			},
@@ -2010,6 +2090,7 @@
 				"filename": "LC09_L1TP_033036_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:39:19.877448Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 36
 			},
@@ -2035,6 +2116,7 @@
 				"filename": "LC09_L1TP_033035_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:38:55.986432Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 35
 			},
@@ -2060,6 +2142,7 @@
 				"filename": "LC09_L1TP_033034_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:38:32.091180Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 34
 			},
@@ -2085,6 +2168,7 @@
 				"filename": "LC09_L1TP_033031_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:37:20.430842Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 31
 			},
@@ -2110,6 +2194,7 @@
 				"filename": "LC09_L1TP_033030_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:36:56.544063Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 30
 			},
@@ -2135,6 +2220,7 @@
 				"filename": "LC09_L1TP_033029_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:36:32.661520Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 29
 			},
@@ -2160,6 +2246,7 @@
 				"filename": "LC09_L1TP_033028_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:36:08.770505Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 28
 			},
@@ -2185,6 +2272,7 @@
 				"filename": "LC09_L1TP_033027_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:35:44.892197Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 27
 			},
@@ -2210,6 +2298,7 @@
 				"filename": "LC09_L1TP_033026_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-29T17:35:21.009653Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 33,
 				"ROW": 26
 			},
@@ -2235,6 +2324,7 @@
 				"filename": "LC09_L1TP_017041_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-29T16:02:26.181007Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 41
 			},
@@ -2260,6 +2350,7 @@
 				"filename": "LC09_L1TP_017040_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-29T16:02:02.289992Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 40
 			},
@@ -2285,6 +2376,7 @@
 				"filename": "LC09_L1GT_017039_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-29T16:01:38.398977Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 39
 			},
@@ -2310,6 +2402,7 @@
 				"filename": "LC09_L1GT_017038_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-29T16:01:14.499490Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 38
 			},
@@ -2335,6 +2428,7 @@
 				"filename": "LC09_L1GT_017037_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-29T16:00:50.608474Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 37
 			},
@@ -2360,6 +2454,7 @@
 				"filename": "LC09_L1GT_017036_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-29T16:00:26.717459Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 36
 			},
@@ -2385,6 +2480,7 @@
 				"filename": "LC09_L1TP_017035_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-29T16:00:02.834916Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 35
 			},
@@ -2410,6 +2506,7 @@
 				"filename": "LC09_L1TP_017034_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-29T15:59:38.943900Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 34
 			},
@@ -2435,6 +2532,7 @@
 				"filename": "LC09_L1TP_017033_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-29T15:59:15.052884Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 33
 			},
@@ -2460,6 +2558,7 @@
 				"filename": "LC09_L1TP_017032_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-29T15:58:51.170341Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 32
 			},
@@ -2485,6 +2584,7 @@
 				"filename": "LC09_L1TP_017031_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-29T15:58:27.283561Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 31
 			},
@@ -2510,6 +2610,7 @@
 				"filename": "LC09_L1TP_017030_20221029_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-29T15:58:03.392545Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 17,
 				"ROW": 30
 			},
@@ -2535,6 +2636,7 @@
 				"filename": "LC09_L1GT_138217_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:40:28.770847Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 217
 			},
@@ -2560,6 +2662,7 @@
 				"filename": "LC09_L1GT_138216_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:40:04.884068Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 216
 			},
@@ -2585,6 +2688,7 @@
 				"filename": "LC09_L1GT_138215_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:39:41.001523Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 215
 			},
@@ -2610,6 +2714,7 @@
 				"filename": "LC09_L1GT_138214_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:39:17.110508Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 214
 			},
@@ -2635,6 +2740,7 @@
 				"filename": "LC09_L1GT_138213_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:38:53.223729Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 213
 			},
@@ -2660,6 +2766,7 @@
 				"filename": "LC09_L1GT_138212_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:38:29.341185Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 212
 			},
@@ -2685,6 +2792,7 @@
 				"filename": "LC09_L1GT_138211_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:38:05.450170Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 211
 			},
@@ -2710,6 +2818,7 @@
 				"filename": "LC09_L1GT_138210_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:37:41.563391Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 210
 			},
@@ -2735,6 +2844,7 @@
 				"filename": "LC09_L1GT_138209_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:37:17.672376Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 209
 			},
@@ -2760,6 +2870,7 @@
 				"filename": "LC09_L1GT_138207_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:36:29.886109Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 207
 			},
@@ -2785,6 +2896,7 @@
 				"filename": "LC09_L1GT_138206_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-29T05:36:05.995093Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 138,
 				"ROW": 206
 			},
@@ -2810,6 +2922,7 @@
 				"filename": "LC09_L1GT_106214_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-29T02:21:31.010805Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 106,
 				"ROW": 214
 			},
@@ -2835,6 +2948,7 @@
 				"filename": "LC09_L1GT_106213_20221029_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-29T02:21:07.124025Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 106,
 				"ROW": 213
 			},
@@ -2860,6 +2974,7 @@
 				"filename": "LC09_L1TP_042037_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-28T18:35:21.426352Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 42,
 				"ROW": 37
 			},
@@ -2885,6 +3000,7 @@
 				"filename": "LC09_L1TP_042036_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-28T18:34:57.535337Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 42,
 				"ROW": 36
 			},
@@ -2910,6 +3026,7 @@
 				"filename": "LC09_L1TP_042035_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-28T18:34:33.648558Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 42,
 				"ROW": 35
 			},
@@ -2935,6 +3052,7 @@
 				"filename": "LC09_L1TP_042034_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-28T18:34:09.757543Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 42,
 				"ROW": 34
 			},
@@ -2960,6 +3078,7 @@
 				"filename": "LC09_L1TP_042031_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-28T18:32:58.092968Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 42,
 				"ROW": 31
 			},
@@ -2985,6 +3104,7 @@
 				"filename": "LC09_L1TP_042027_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-28T18:31:22.550087Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 42,
 				"ROW": 27
 			},
@@ -3010,6 +3130,7 @@
 				"filename": "LC09_L1TP_042026_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-28T18:30:58.671780Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 42,
 				"ROW": 26
 			},
@@ -3035,6 +3156,7 @@
 				"filename": "LC09_L1GT_026042_20221028_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-28T16:58:27.806160Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 42
 			},
@@ -3060,6 +3182,7 @@
 				"filename": "LC09_L1TP_026041_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:58:03.915146Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 41
 			},
@@ -3085,6 +3208,7 @@
 				"filename": "LC09_L1TP_026040_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-28T16:57:40.019894Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 40
 			},
@@ -3110,6 +3234,7 @@
 				"filename": "LC09_L1GT_026039_20221028_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-28T16:57:16.120406Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 39
 			},
@@ -3135,6 +3260,7 @@
 				"filename": "LC09_L1GT_026038_20221028_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-28T16:56:52.229391Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 38
 			},
@@ -3160,6 +3286,7 @@
 				"filename": "LC09_L1GT_026037_20221028_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-28T16:56:28.342612Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 37
 			},
@@ -3185,6 +3312,7 @@
 				"filename": "LC09_L1TP_026036_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-28T16:56:04.447361Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 36
 			},
@@ -3210,6 +3338,7 @@
 				"filename": "LC09_L1TP_026035_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:55:40.560582Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 35
 			},
@@ -3235,6 +3364,7 @@
 				"filename": "LC09_L1TP_026034_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-28T16:55:16.669566Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 34
 			},
@@ -3260,6 +3390,7 @@
 				"filename": "LC09_L1TP_026033_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:54:52.782787Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 33
 			},
@@ -3285,6 +3416,7 @@
 				"filename": "LC09_L1TP_026032_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:54:28.891772Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 32
 			},
@@ -3310,6 +3442,7 @@
 				"filename": "LC09_L1TP_026031_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:54:05.009227Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 31
 			},
@@ -3335,6 +3468,7 @@
 				"filename": "LC09_L1TP_026030_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:53:41.122448Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 30
 			},
@@ -3360,6 +3494,7 @@
 				"filename": "LC09_L1TP_026029_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:53:17.231433Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 29
 			},
@@ -3385,6 +3520,7 @@
 				"filename": "LC09_L1TP_026028_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:52:53.348889Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 28
 			},
@@ -3410,6 +3546,7 @@
 				"filename": "LC09_L1TP_026027_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:52:29.466346Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 27
 			},
@@ -3435,6 +3572,7 @@
 				"filename": "LC09_L1TP_026026_20221028_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-28T16:52:05.583802Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 26,
 				"ROW": 26
 			},
@@ -3460,6 +3598,7 @@
 				"filename": "LC09_L1TP_010028_20221028_20230323_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-28T15:14:00.188900Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 10,
 				"ROW": 28
 			},
@@ -3485,6 +3624,7 @@
 				"filename": "LC09_L1GT_131218_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:57:37.193643Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 218
 			},
@@ -3510,6 +3650,7 @@
 				"filename": "LC09_L1GT_131217_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:57:13.315336Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 217
 			},
@@ -3535,6 +3676,7 @@
 				"filename": "LC09_L1GT_131216_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:56:49.424320Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 216
 			},
@@ -3560,6 +3702,7 @@
 				"filename": "LC09_L1GT_131214_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:56:01.650762Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 214
 			},
@@ -3585,6 +3728,7 @@
 				"filename": "LC09_L1GT_131212_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:55:13.872968Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 212
 			},
@@ -3610,6 +3754,7 @@
 				"filename": "LC09_L1GT_131211_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:54:49.990424Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 211
 			},
@@ -3635,6 +3780,7 @@
 				"filename": "LC09_L1GT_131210_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:54:26.095171Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 210
 			},
@@ -3660,6 +3806,7 @@
 				"filename": "LC09_L1GT_131209_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:54:02.208393Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 209
 			},
@@ -3685,6 +3832,7 @@
 				"filename": "LC09_L1GT_131207_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T04:53:14.417890Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 131,
 				"ROW": 207
 			},
@@ -3710,6 +3858,7 @@
 				"filename": "LC09_L1GT_115217_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T03:18:20.244303Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 115,
 				"ROW": 217
 			},
@@ -3735,6 +3884,7 @@
 				"filename": "LC09_L1GT_115216_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T03:17:56.357525Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 115,
 				"ROW": 216
 			},
@@ -3760,6 +3910,7 @@
 				"filename": "LC09_L1GT_115215_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T03:17:32.466509Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 115,
 				"ROW": 215
 			},
@@ -3785,6 +3936,7 @@
 				"filename": "LC09_L1GT_115214_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T03:17:08.579731Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 115,
 				"ROW": 214
 			},
@@ -3810,6 +3962,7 @@
 				"filename": "LC09_L1GT_115213_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T03:16:44.692951Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 115,
 				"ROW": 213
 			},
@@ -3835,6 +3988,7 @@
 				"filename": "LC09_L1GT_115207_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-28T03:14:21.342623Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 115,
 				"ROW": 207
 			},
@@ -3860,6 +4014,7 @@
 				"filename": "LC09_L1GT_115206_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-28T03:13:57.447372Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 115,
 				"ROW": 206
 			},
@@ -3885,6 +4040,7 @@
 				"filename": "LC09_L1GT_115205_20221028_20230323_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-28T03:13:33.556356Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 115,
 				"ROW": 205
 			},
@@ -3910,6 +4066,7 @@
 				"filename": "LC09_L1TP_035038_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-27T17:52:29.840678Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 35,
 				"ROW": 38
 			},
@@ -3935,6 +4092,7 @@
 				"filename": "LC09_L1TP_035037_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-27T17:52:05.949663Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 35,
 				"ROW": 37
 			},
@@ -3960,6 +4118,7 @@
 				"filename": "LC09_L1TP_035036_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-27T17:51:42.058646Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 35,
 				"ROW": 36
 			},
@@ -3985,6 +4144,7 @@
 				"filename": "LC09_L1TP_035035_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-27T17:51:18.167631Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 35,
 				"ROW": 35
 			},
@@ -4010,6 +4170,7 @@
 				"filename": "LC09_L1TP_035034_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-27T17:50:54.276616Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 35,
 				"ROW": 34
 			},
@@ -4035,6 +4196,7 @@
 				"filename": "LC09_L1TP_035031_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-27T17:49:42.612042Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 35,
 				"ROW": 31
 			},
@@ -4060,6 +4222,7 @@
 				"filename": "LC09_L1TP_035027_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-27T17:48:07.073396Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 35,
 				"ROW": 27
 			},
@@ -4085,6 +4248,7 @@
 				"filename": "LC09_L1TP_035026_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-27T17:47:43.186617Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 35,
 				"ROW": 26
 			},
@@ -4110,6 +4274,7 @@
 				"filename": "LC09_L1TP_019039_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:14:00.584412Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 39
 			},
@@ -4135,6 +4300,7 @@
 				"filename": "LC09_L1TP_019038_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:13:36.693396Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 38
 			},
@@ -4160,6 +4326,7 @@
 				"filename": "LC09_L1TP_019037_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:13:12.798146Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 37
 			},
@@ -4185,6 +4352,7 @@
 				"filename": "LC09_L1TP_019036_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:12:48.911366Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 36
 			},
@@ -4210,6 +4378,7 @@
 				"filename": "LC09_L1TP_019035_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:12:25.020350Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 35
 			},
@@ -4235,6 +4404,7 @@
 				"filename": "LC09_L1TP_019034_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:12:01.129334Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 34
 			},
@@ -4260,6 +4430,7 @@
 				"filename": "LC09_L1TP_019033_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:11:37.242556Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 33
 			},
@@ -4285,6 +4456,7 @@
 				"filename": "LC09_L1TP_019032_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:11:13.351541Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 32
 			},
@@ -4310,6 +4482,7 @@
 				"filename": "LC09_L1TP_019031_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:10:49.464762Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 31
 			},
@@ -4335,6 +4508,7 @@
 				"filename": "LC09_L1TP_019030_20221027_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-27T16:10:25.577981Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 19,
 				"ROW": 30
 			},
@@ -4360,6 +4534,7 @@
 				"filename": "LC09_L1GT_140212_20221027_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-27T05:50:48.828290Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 140,
 				"ROW": 212
 			},
@@ -4385,6 +4560,7 @@
 				"filename": "LC09_L1GT_140211_20221027_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-27T05:50:24.996578Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 140,
 				"ROW": 211
 			},
@@ -4410,6 +4586,7 @@
 				"filename": "LC09_L1GT_108212_20221027_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-27T02:33:05.321017Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 108,
 				"ROW": 212
 			},
@@ -4435,6 +4612,7 @@
 				"filename": "LC09_L1TP_044035_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-26T18:46:55.711154Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 44,
 				"ROW": 35
 			},
@@ -4460,6 +4638,7 @@
 				"filename": "LC09_L1TP_044034_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-26T18:46:31.824374Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 44,
 				"ROW": 34
 			},
@@ -4485,6 +4664,7 @@
 				"filename": "LC09_L1TP_044033_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-26T18:46:07.933359Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 44,
 				"ROW": 33
 			},
@@ -4510,6 +4690,7 @@
 				"filename": "LC09_L1TP_044031_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-26T18:45:20.159799Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 44,
 				"ROW": 31
 			},
@@ -4535,6 +4716,7 @@
 				"filename": "LC09_L1TP_028041_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-26T17:10:25.990450Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 41
 			},
@@ -4560,6 +4742,7 @@
 				"filename": "LC09_L1TP_028040_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-26T17:10:02.099434Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 40
 			},
@@ -4585,6 +4768,7 @@
 				"filename": "LC09_L1TP_028039_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-26T17:09:38.204183Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 39
 			},
@@ -4610,6 +4794,7 @@
 				"filename": "LC09_L1TP_028038_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-26T17:09:14.308931Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 38
 			},
@@ -4635,6 +4820,7 @@
 				"filename": "LC09_L1TP_028037_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-26T17:08:50.417915Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 37
 			},
@@ -4660,6 +4846,7 @@
 				"filename": "LC09_L1TP_028036_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-26T17:08:26.526901Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 36
 			},
@@ -4685,6 +4872,7 @@
 				"filename": "LC09_L1TP_028035_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-26T17:08:02.635886Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 35
 			},
@@ -4710,6 +4898,7 @@
 				"filename": "LC09_L1TP_028034_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-26T17:07:38.744871Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 34
 			},
@@ -4735,6 +4924,7 @@
 				"filename": "LC09_L1TP_028033_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-26T17:07:14.853855Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 33
 			},
@@ -4760,6 +4950,7 @@
 				"filename": "LC09_L1TP_028032_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-26T17:06:50.967075Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 32
 			},
@@ -4785,6 +4976,7 @@
 				"filename": "LC09_L1TP_028031_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-26T17:06:27.084532Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 31
 			},
@@ -4810,6 +5002,7 @@
 				"filename": "LC09_L1TP_028030_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-26T17:06:03.197752Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 30
 			},
@@ -4835,6 +5028,7 @@
 				"filename": "LC09_L1TP_028029_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-26T17:05:39.306736Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 29
 			},
@@ -4860,6 +5054,7 @@
 				"filename": "LC09_L1TP_028028_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-26T17:05:15.419958Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 28
 			},
@@ -4885,6 +5080,7 @@
 				"filename": "LC09_L1TP_028027_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-26T17:04:51.541651Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 27
 			},
@@ -4910,6 +5106,7 @@
 				"filename": "LC09_L1GT_028026_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-26T17:04:27.650635Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 28,
 				"ROW": 26
 			},
@@ -4935,6 +5132,7 @@
 				"filename": "LC09_L1GT_012031_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-26T15:27:33.911836Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 12,
 				"ROW": 31
 			},
@@ -4960,6 +5158,7 @@
 				"filename": "LC09_L1GT_012029_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-26T15:26:46.138276Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 12,
 				"ROW": 29
 			},
@@ -4985,6 +5184,7 @@
 				"filename": "LC09_L1GT_012028_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-26T15:26:22.259969Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 12,
 				"ROW": 28
 			},
@@ -5010,6 +5210,7 @@
 				"filename": "LC09_L1TP_012027_20221026_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-26T15:25:58.368953Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 12,
 				"ROW": 27
 			},
@@ -5035,6 +5236,7 @@
 				"filename": "LC09_L1GT_133218_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:09:59.226593Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 218
 			},
@@ -5060,6 +5262,7 @@
 				"filename": "LC09_L1GT_133217_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:09:35.335578Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 217
 			},
@@ -5085,6 +5288,7 @@
 				"filename": "LC09_L1GT_133216_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:09:11.453035Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 216
 			},
@@ -5110,6 +5314,7 @@
 				"filename": "LC09_L1GT_133215_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:08:47.566255Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 215
 			},
@@ -5135,6 +5340,7 @@
 				"filename": "LC09_L1GT_133214_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:08:23.683712Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 214
 			},
@@ -5160,6 +5366,7 @@
 				"filename": "LC09_L1GT_133213_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:07:59.792697Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 213
 			},
@@ -5185,6 +5392,7 @@
 				"filename": "LC09_L1GT_133212_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:07:35.905916Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 212
 			},
@@ -5210,6 +5418,7 @@
 				"filename": "LC09_L1GT_133211_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:07:12.014901Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 211
 			},
@@ -5235,6 +5444,7 @@
 				"filename": "LC09_L1GT_133210_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:06:48.128122Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 210
 			},
@@ -5260,6 +5470,7 @@
 				"filename": "LC09_L1GT_133209_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:06:24.232870Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 209
 			},
@@ -5285,6 +5496,7 @@
 				"filename": "LC09_L1GT_133207_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T05:05:36.450840Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 133,
 				"ROW": 207
 			},
@@ -5310,6 +5522,7 @@
 				"filename": "LC09_L1GT_117214_20221026_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-26T03:29:30.591499Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 117,
 				"ROW": 214
 			},
@@ -5335,6 +5548,7 @@
 				"filename": "LC09_L1TP_037038_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-25T18:04:51.827029Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 37,
 				"ROW": 38
 			},
@@ -5360,6 +5574,7 @@
 				"filename": "LC09_L1TP_037036_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-25T18:04:04.040763Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 37,
 				"ROW": 36
 			},
@@ -5385,6 +5600,7 @@
 				"filename": "LC09_L1TP_037035_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-25T18:03:40.149747Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 37,
 				"ROW": 35
 			},
@@ -5410,6 +5626,7 @@
 				"filename": "LC09_L1TP_037031_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-25T18:02:04.598395Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 37,
 				"ROW": 31
 			},
@@ -5435,6 +5652,7 @@
 				"filename": "LC09_L1TP_021040_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-25T16:26:46.466015Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 40
 			},
@@ -5460,6 +5678,7 @@
 				"filename": "LC09_L1GT_021038_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-25T16:25:58.683985Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 38
 			},
@@ -5485,6 +5704,7 @@
 				"filename": "LC09_L1TP_021037_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-25T16:25:34.792969Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 37
 			},
@@ -5510,6 +5730,7 @@
 				"filename": "LC09_L1TP_021036_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-25T16:25:10.901955Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 36
 			},
@@ -5535,6 +5756,7 @@
 				"filename": "LC09_L1TP_021035_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-25T16:24:47.010937Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 35
 			},
@@ -5560,6 +5782,7 @@
 				"filename": "LC09_L1GT_021034_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-25T16:24:23.119923Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 34
 			},
@@ -5585,6 +5808,7 @@
 				"filename": "LC09_L1GT_021033_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-25T16:23:59.228907Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 33
 			},
@@ -5610,6 +5834,7 @@
 				"filename": "LC09_L1GT_021032_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-25T16:23:35.346365Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 32
 			},
@@ -5635,6 +5860,7 @@
 				"filename": "LC09_L1TP_021031_20221025_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-25T16:23:11.455349Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 21,
 				"ROW": 31
 			},
@@ -5660,6 +5886,7 @@
 				"filename": "LC09_L1GT_142212_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-25T06:03:13.385883Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 142,
 				"ROW": 212
 			},
@@ -5685,6 +5912,7 @@
 				"filename": "LC09_L1GT_142211_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-25T06:02:49.499105Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 142,
 				"ROW": 211
 			},
@@ -5710,6 +5938,7 @@
 				"filename": "LC09_L1GT_142210_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-25T06:02:25.608090Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 142,
 				"ROW": 210
 			},
@@ -5735,6 +5964,7 @@
 				"filename": "LC09_L1GT_110214_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-25T02:46:15.004671Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 110,
 				"ROW": 214
 			},
@@ -5760,6 +5990,7 @@
 				"filename": "LC09_L1GT_110211_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-25T02:45:03.340098Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 110,
 				"ROW": 211
 			},
@@ -5785,6 +6016,7 @@
 				"filename": "LC09_L1GT_110209_20221025_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-25T02:44:15.558068Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 110,
 				"ROW": 209
 			},
@@ -5810,6 +6042,7 @@
 				"filename": "LC09_L1GT_046031_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-24T18:57:42.052951Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 46,
 				"ROW": 31
 			},
@@ -5835,6 +6068,7 @@
 				"filename": "LC09_L1GT_046030_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-24T18:57:18.166171Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 46,
 				"ROW": 30
 			},
@@ -5860,6 +6094,7 @@
 				"filename": "LC09_L1GT_046029_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-24T18:56:54.279392Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 46,
 				"ROW": 29
 			},
@@ -5885,6 +6120,7 @@
 				"filename": "LC09_L1TP_030040_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-24T17:22:23.996822Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 40
 			},
@@ -5910,6 +6146,7 @@
 				"filename": "LC09_L1TP_030039_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-24T17:22:00.101570Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 39
 			},
@@ -5935,6 +6172,7 @@
 				"filename": "LC09_L1TP_030038_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-24T17:21:36.210555Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 38
 			},
@@ -5960,6 +6198,7 @@
 				"filename": "LC09_L1TP_030037_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-24T17:21:12.319539Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 37
 			},
@@ -5985,6 +6224,7 @@
 				"filename": "LC09_L1TP_030036_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-24T17:20:48.424288Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 36
 			},
@@ -6010,6 +6250,7 @@
 				"filename": "LC09_L1TP_030035_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-24T17:20:24.533273Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 35
 			},
@@ -6035,6 +6276,7 @@
 				"filename": "LC09_L1TP_030034_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-24T17:20:00.642257Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 34
 			},
@@ -6060,6 +6302,7 @@
 				"filename": "LC09_L1TP_030033_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-24T17:19:36.755478Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 33
 			},
@@ -6085,6 +6328,7 @@
 				"filename": "LC09_L1TP_030032_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-24T17:19:12.864463Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 32
 			},
@@ -6110,6 +6354,7 @@
 				"filename": "LC09_L1TP_030031_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-24T17:18:48.981920Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 31
 			},
@@ -6135,6 +6380,7 @@
 				"filename": "LC09_L1TP_030030_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-24T17:18:25.090904Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 30
 			},
@@ -6160,6 +6406,7 @@
 				"filename": "LC09_L1TP_030029_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-24T17:18:01.204124Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 29
 			},
@@ -6185,6 +6432,7 @@
 				"filename": "LC09_L1TP_030028_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-24T17:17:37.321581Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 28
 			},
@@ -6210,6 +6458,7 @@
 				"filename": "LC09_L1GT_030027_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-24T17:17:13.434801Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 27
 			},
@@ -6235,6 +6484,7 @@
 				"filename": "LC09_L1GT_030026_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-24T17:16:49.548023Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 26
 			},
@@ -6260,6 +6510,7 @@
 				"filename": "LC09_L1TP_030025_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-24T17:16:25.669714Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 30,
 				"ROW": 25
 			},
@@ -6285,6 +6536,7 @@
 				"filename": "LC09_L1GT_014036_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-24T15:41:55.247357Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 14,
 				"ROW": 36
 			},
@@ -6310,6 +6562,7 @@
 				"filename": "LC09_L1GT_014035_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-24T15:41:31.360577Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 14,
 				"ROW": 35
 			},
@@ -6335,6 +6588,7 @@
 				"filename": "LC09_L1GT_014034_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-24T15:41:07.473799Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 14,
 				"ROW": 34
 			},
@@ -6360,6 +6614,7 @@
 				"filename": "LC09_L1GT_014032_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-24T15:40:19.696004Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 14,
 				"ROW": 32
 			},
@@ -6385,6 +6640,7 @@
 				"filename": "LC09_L1GT_014031_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-24T15:39:55.809225Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 14,
 				"ROW": 31
 			},
@@ -6410,6 +6666,7 @@
 				"filename": "LC09_L1TP_014030_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-24T15:39:31.922446Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 14,
 				"ROW": 30
 			},
@@ -6435,6 +6692,7 @@
 				"filename": "LC09_L1TP_014029_20221024_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-24T15:39:08.035665Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 14,
 				"ROW": 29
 			},
@@ -6460,6 +6718,7 @@
 				"filename": "LC09_L1GT_135216_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-24T05:21:33.320776Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 135,
 				"ROW": 216
 			},
@@ -6485,6 +6744,7 @@
 				"filename": "LC09_L1GT_135215_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-24T05:21:09.429762Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 135,
 				"ROW": 215
 			},
@@ -6510,6 +6770,7 @@
 				"filename": "LC09_L1GT_135212_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-24T05:19:57.773659Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 135,
 				"ROW": 212
 			},
@@ -6535,6 +6796,7 @@
 				"filename": "LC09_L1GT_135211_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-24T05:19:33.882645Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 135,
 				"ROW": 211
 			},
@@ -6560,6 +6822,7 @@
 				"filename": "LC09_L1GT_135210_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-24T05:19:09.995865Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 135,
 				"ROW": 210
 			},
@@ -6585,6 +6848,7 @@
 				"filename": "LC09_L1GT_135207_20221024_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-24T05:17:58.318583Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 135,
 				"ROW": 207
 			},
@@ -6610,6 +6874,7 @@
 				"filename": "LC09_L1TP_039036_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-23T18:16:25.874617Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 39,
 				"ROW": 36
 			},
@@ -6635,6 +6900,7 @@
 				"filename": "LC09_L1TP_039031_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-23T18:14:26.423777Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 39,
 				"ROW": 31
 			},
@@ -6660,6 +6926,7 @@
 				"filename": "LC09_L1TP_023040_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:39:08.308342Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 40
 			},
@@ -6685,6 +6952,7 @@
 				"filename": "LC09_L1TP_023039_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-23T16:38:44.417328Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 39
 			},
@@ -6710,6 +6978,7 @@
 				"filename": "LC09_L1TP_023038_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:38:20.522076Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 38
 			},
@@ -6735,6 +7004,7 @@
 				"filename": "LC09_L1TP_023037_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:37:56.631061Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 37
 			},
@@ -6760,6 +7030,7 @@
 				"filename": "LC09_L1TP_023036_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:37:32.744282Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 36
 			},
@@ -6785,6 +7056,7 @@
 				"filename": "LC09_L1TP_023035_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:37:08.849031Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 35
 			},
@@ -6810,6 +7082,7 @@
 				"filename": "LC09_L1TP_023034_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:36:44.962250Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 34
 			},
@@ -6835,6 +7108,7 @@
 				"filename": "LC09_L1TP_023032_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:35:57.184456Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 32
 			},
@@ -6860,6 +7134,7 @@
 				"filename": "LC09_L1TP_023031_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:35:33.297677Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 31
 			},
@@ -6885,6 +7160,7 @@
 				"filename": "LC09_L1TP_023029_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:34:45.519882Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 29
 			},
@@ -6910,6 +7186,7 @@
 				"filename": "LC09_L1TP_023028_20221023_20230324_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-23T16:34:21.633103Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 23,
 				"ROW": 28
 			},
@@ -6935,6 +7212,7 @@
 				"filename": "LC09_L1GT_128218_20221023_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-23T04:39:05.384673Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 128,
 				"ROW": 218
 			},
@@ -6960,6 +7238,7 @@
 				"filename": "LC09_L1GT_128216_20221023_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-23T04:38:17.615350Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 128,
 				"ROW": 216
 			},
@@ -6985,6 +7264,7 @@
 				"filename": "LC09_L1GT_128215_20221023_20230324_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-23T04:37:53.724335Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 128,
 				"ROW": 215
 			},
@@ -7010,6 +7290,7 @@
 				"filename": "LC09_L1TP_032039_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-22T17:34:21.842240Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 39
 			},
@@ -7035,6 +7316,7 @@
 				"filename": "LC09_L1TP_032038_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-22T17:33:57.942753Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 38
 			},
@@ -7060,6 +7342,7 @@
 				"filename": "LC09_L1TP_032036_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-22T17:33:10.160722Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 36
 			},
@@ -7085,6 +7368,7 @@
 				"filename": "LC09_L1TP_032035_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-22T17:32:46.269707Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 35
 			},
@@ -7110,6 +7394,7 @@
 				"filename": "LC09_L1TP_032034_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-22T17:32:22.378692Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 34
 			},
@@ -7135,6 +7420,7 @@
 				"filename": "LC09_L1TP_032032_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-22T17:31:34.600897Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 32
 			},
@@ -7160,6 +7446,7 @@
 				"filename": "LC09_L1TP_032031_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-22T17:31:10.709882Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 31
 			},
@@ -7185,6 +7472,7 @@
 				"filename": "LC09_L1TP_032030_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-22T17:30:46.823102Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 30
 			},
@@ -7210,6 +7498,7 @@
 				"filename": "LC09_L1TP_032029_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-22T17:30:22.940559Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 29
 			},
@@ -7235,6 +7524,7 @@
 				"filename": "LC09_L1TP_032028_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-22T17:29:59.049543Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 28
 			},
@@ -7260,6 +7550,7 @@
 				"filename": "LC09_L1TP_032027_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-22T17:29:35.171236Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 27
 			},
@@ -7285,6 +7576,7 @@
 				"filename": "LC09_L1TP_032026_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-22T17:29:11.280220Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 32,
 				"ROW": 26
 			},
@@ -7310,6 +7602,7 @@
 				"filename": "LC09_L1TP_016043_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-22T15:57:04.242077Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 43
 			},
@@ -7335,6 +7628,7 @@
 				"filename": "LC09_L1TP_016042_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:56:40.342590Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 42
 			},
@@ -7360,6 +7654,7 @@
 				"filename": "LC09_L1TP_016041_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:56:16.443103Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 41
 			},
@@ -7385,6 +7680,7 @@
 				"filename": "LC09_L1TP_016040_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:55:52.547851Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 40
 			},
@@ -7410,6 +7706,7 @@
 				"filename": "LC09_L1TP_016036_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:54:16.983790Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 36
 			},
@@ -7435,6 +7732,7 @@
 				"filename": "LC09_L1TP_016035_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:53:53.088537Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 35
 			},
@@ -7460,6 +7758,7 @@
 				"filename": "LC09_L1TP_016034_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:53:29.201759Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 34
 			},
@@ -7485,6 +7784,7 @@
 				"filename": "LC09_L1TP_016033_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-22T15:53:05.310743Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 33
 			},
@@ -7510,6 +7810,7 @@
 				"filename": "LC09_L1TP_016032_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:52:41.423964Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 32
 			},
@@ -7535,6 +7836,7 @@
 				"filename": "LC09_L1TP_016031_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:52:17.537185Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 31
 			},
@@ -7560,6 +7862,7 @@
 				"filename": "LC09_L1TP_016029_20221022_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-22T15:51:29.759390Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 16,
 				"ROW": 29
 			},
@@ -7585,6 +7888,7 @@
 				"filename": "",
 				"piece_cid": "",
 				"datetime": "2022-10-22T05:29:58.839884Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 137,
 				"ROW": 206
 			},
@@ -7610,6 +7914,7 @@
 				"filename": "LC09_L1GT_105214_20221022_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-22T02:15:21.078030Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 105,
 				"ROW": 214
 			},
@@ -7635,6 +7940,7 @@
 				"filename": "LC09_L1TP_041037_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-21T18:29:11.387674Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 41,
 				"ROW": 37
 			},
@@ -7660,6 +7966,7 @@
 				"filename": "LC09_L1TP_041036_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-21T18:28:47.496660Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 41,
 				"ROW": 36
 			},
@@ -7685,6 +7992,7 @@
 				"filename": "LC09_L1TP_041032_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-21T18:27:11.936834Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 41,
 				"ROW": 32
 			},
@@ -7710,6 +8018,7 @@
 				"filename": "LC09_L1TP_025040_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:51:29.947328Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 40
 			},
@@ -7735,6 +8044,7 @@
 				"filename": "LC09_L1TP_025039_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:51:06.052075Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 39
 			},
@@ -7760,6 +8070,7 @@
 				"filename": "LC09_L1TP_025038_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:50:42.161060Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 38
 			},
@@ -7785,6 +8096,7 @@
 				"filename": "LC09_L1TP_025037_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:50:18.265808Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 37
 			},
@@ -7810,6 +8122,7 @@
 				"filename": "LC09_L1TP_025036_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:49:54.374794Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 36
 			},
@@ -7835,6 +8148,7 @@
 				"filename": "LC09_L1TP_025035_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:49:30.488014Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 35
 			},
@@ -7860,6 +8174,7 @@
 				"filename": "LC09_L1TP_025034_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:49:06.596998Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 34
 			},
@@ -7885,6 +8200,7 @@
 				"filename": "LC09_L1TP_025033_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:48:42.710220Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 33
 			},
@@ -7910,6 +8226,7 @@
 				"filename": "LC09_L1TP_025032_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:48:18.819204Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 32
 			},
@@ -7935,6 +8252,7 @@
 				"filename": "LC09_L1TP_025031_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:47:54.932425Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 31
 			},
@@ -7960,6 +8278,7 @@
 				"filename": "LC09_L1TP_025030_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:47:31.041409Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 30
 			},
@@ -7985,6 +8304,7 @@
 				"filename": "LC09_L1TP_025029_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:47:07.154629Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 29
 			},
@@ -8010,6 +8330,7 @@
 				"filename": "LC09_L1TP_025028_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:46:43.272087Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 28
 			},
@@ -8035,6 +8356,7 @@
 				"filename": "LC09_L1TP_025027_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:46:19.381071Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 27
 			},
@@ -8060,6 +8382,7 @@
 				"filename": "LC09_L1TP_025026_20221021_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-21T16:45:55.502764Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 25,
 				"ROW": 26
 			},
@@ -8085,6 +8408,7 @@
 				"filename": "LC09_L1GT_130218_20221021_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-21T04:51:26.964349Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 130,
 				"ROW": 218
 			},
@@ -8110,6 +8434,7 @@
 				"filename": "LC09_L1GT_130215_20221021_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-21T04:50:15.308246Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 130,
 				"ROW": 215
 			},
@@ -8135,6 +8460,7 @@
 				"filename": "LC09_L1GT_130212_20221021_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-21T04:49:03.643672Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 130,
 				"ROW": 212
 			},
@@ -8160,6 +8486,7 @@
 				"filename": "LC09_L1GT_114215_20221021_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-21T03:11:22.220270Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 114,
 				"ROW": 215
 			},
@@ -8185,6 +8512,7 @@
 				"filename": "LC09_L1TP_034038_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-20T17:46:19.475827Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 34,
 				"ROW": 38
 			},
@@ -8210,6 +8538,7 @@
 				"filename": "LC09_L1TP_034036_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-20T17:45:31.689559Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 34,
 				"ROW": 36
 			},
@@ -8235,6 +8564,7 @@
 				"filename": "LC09_L1TP_034027_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-20T17:41:56.691602Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 34,
 				"ROW": 27
 			},
@@ -8260,6 +8590,7 @@
 				"filename": "LC09_L1TP_034026_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqa5vnzb7564kdtkmcoypt2hkvfvs3uimnpexpxre5bwf3rkbykyhq",
 				"datetime": "2022-10-20T17:41:32.809059Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 34,
 				"ROW": 26
 			},
@@ -8285,6 +8616,7 @@
 				"filename": "LC09_L1TP_018040_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:08:14.080924Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 40
 			},
@@ -8310,6 +8642,7 @@
 				"filename": "LC09_L1TP_018039_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:07:50.185673Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 39
 			},
@@ -8335,6 +8668,7 @@
 				"filename": "LC09_L1TP_018038_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:07:26.294657Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 38
 			},
@@ -8360,6 +8694,7 @@
 				"filename": "LC09_L1TP_018037_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:07:02.403643Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 37
 			},
@@ -8385,6 +8720,7 @@
 				"filename": "LC09_L1TP_018036_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:06:38.512627Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 36
 			},
@@ -8410,6 +8746,7 @@
 				"filename": "LC09_L1TP_018035_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:06:14.621612Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 35
 			},
@@ -8435,6 +8772,7 @@
 				"filename": "LC09_L1TP_018034_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:05:50.730597Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 34
 			},
@@ -8460,6 +8798,7 @@
 				"filename": "LC09_L1TP_018033_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:05:26.839582Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 33
 			},
@@ -8485,6 +8824,7 @@
 				"filename": "LC09_L1TP_018032_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-20T16:05:02.948567Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 32
 			},
@@ -8510,6 +8850,7 @@
 				"filename": "LC09_L1TP_018031_20221020_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpothuxnbx6vmnqsv5pjqfdkqnyqn5l4kl3qk3jlw4kro3ovtuupi",
 				"datetime": "2022-10-20T16:04:39.066022Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 31
 			},
@@ -8535,6 +8876,7 @@
 				"filename": "LC09_L1GT_018030_20221020_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-20T16:04:15.175007Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 18,
 				"ROW": 30
 			},
@@ -8560,6 +8902,7 @@
 				"filename": "LC09_L1GT_139215_20221020_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-20T05:45:52.589121Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 139,
 				"ROW": 215
 			},
@@ -8585,6 +8928,7 @@
 				"filename": "LC09_L1GT_139214_20221020_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-20T05:45:28.698107Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 139,
 				"ROW": 214
 			},
@@ -8610,6 +8954,7 @@
 				"filename": "LC09_L1TP_043036_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-19T18:41:08.945024Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 43,
 				"ROW": 36
 			},
@@ -8635,6 +8980,7 @@
 				"filename": "LC09_L1TP_043035_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-19T18:40:45.054008Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 43,
 				"ROW": 35
 			},
@@ -8660,6 +9006,7 @@
 				"filename": "LC09_L1TP_043034_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-19T18:40:21.162993Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 43,
 				"ROW": 34
 			},
@@ -8685,6 +9032,7 @@
 				"filename": "LC09_L1TP_043029_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-19T18:38:21.724861Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 43,
 				"ROW": 29
 			},
@@ -8710,6 +9058,7 @@
 				"filename": "LC09_L1TP_027042_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:04:39.198902Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 42
 			},
@@ -8735,6 +9084,7 @@
 				"filename": "LC09_L1TP_027041_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:04:15.303651Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 41
 			},
@@ -8760,6 +9110,7 @@
 				"filename": "LC09_L1TP_027040_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:03:51.412636Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 40
 			},
@@ -8785,6 +9136,7 @@
 				"filename": "LC09_L1TP_027039_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:03:27.517383Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 39
 			},
@@ -8810,6 +9162,7 @@
 				"filename": "LC09_L1TP_027038_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:03:03.622133Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 38
 			},
@@ -8835,6 +9188,7 @@
 				"filename": "LC09_L1TP_027037_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:02:39.726882Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 37
 			},
@@ -8860,6 +9214,7 @@
 				"filename": "LC09_L1TP_027036_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:02:15.835866Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 36
 			},
@@ -8885,6 +9240,7 @@
 				"filename": "LC09_L1TP_027035_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:01:51.944851Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 35
 			},
@@ -8910,6 +9266,7 @@
 				"filename": "LC09_L1TP_027034_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:01:28.058071Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 34
 			},
@@ -8935,6 +9292,7 @@
 				"filename": "LC09_L1TP_027033_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:01:04.162820Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 33
 			},
@@ -8960,6 +9318,7 @@
 				"filename": "LC09_L1TP_027032_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:00:40.280275Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 32
 			},
@@ -8985,6 +9344,7 @@
 				"filename": "LC09_L1TP_027031_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T17:00:16.385025Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 31
 			},
@@ -9010,6 +9370,7 @@
 				"filename": "LC09_L1TP_027030_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T16:59:52.502481Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 30
 			},
@@ -9035,6 +9396,7 @@
 				"filename": "LC09_L1TP_027029_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T16:59:28.611467Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 29
 			},
@@ -9060,6 +9422,7 @@
 				"filename": "LC09_L1TP_027028_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T16:59:04.728923Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 28
 			},
@@ -9085,6 +9448,7 @@
 				"filename": "LC09_L1TP_027027_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqn4scbc3vfral4mw2zgrphsj6chu6p2j3yj7jutk4n4k6j3hozyhq",
 				"datetime": "2022-10-19T16:58:40.846380Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 27
 			},
@@ -9110,6 +9474,7 @@
 				"filename": "LC09_L1TP_027026_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqpec2fk6ql53ax75hi4bgyyqewlpzs4y6jztjvgzm7csx6hugz6ia",
 				"datetime": "2022-10-19T16:58:16.955364Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 27,
 				"ROW": 26
 			},
@@ -9135,6 +9500,7 @@
 				"filename": "LC09_L1TP_011029_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-19T15:20:35.430297Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 11,
 				"ROW": 29
 			},
@@ -9160,6 +9526,7 @@
 				"filename": "LC09_L1TP_011028_20221019_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-19T15:20:11.543517Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 11,
 				"ROW": 28
 			},
@@ -9185,6 +9552,7 @@
 				"filename": "LC09_L1GT_011027_20221019_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-19T15:19:47.652501Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 11,
 				"ROW": 27
 			},
@@ -9210,6 +9578,7 @@
 				"filename": "LC09_L1GT_132215_20221019_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-19T05:02:36.722723Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 132,
 				"ROW": 215
 			},
@@ -9235,6 +9604,7 @@
 				"filename": "LC09_L1GT_132212_20221019_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-19T05:01:25.058148Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 132,
 				"ROW": 212
 			},
@@ -9260,6 +9630,7 @@
 				"filename": "LC09_L1GT_116215_20221019_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-19T03:23:43.617803Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 116,
 				"ROW": 215
 			},
@@ -9285,6 +9656,7 @@
 				"filename": "LC09_L1TP_036038_20221018_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-18T17:58:40.847949Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 36,
 				"ROW": 38
 			},
@@ -9310,6 +9682,7 @@
 				"filename": "LC09_L1TP_036036_20221018_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqmxrhov4o5vdvd4wc7exeyp26bc7iq3vugm4u5anuzghfloydnami",
 				"datetime": "2022-10-18T17:57:53.070154Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 36,
 				"ROW": 36
 			},
@@ -9335,6 +9708,7 @@
 				"filename": "LC09_L1TP_020038_20221018_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-18T16:19:47.675252Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 20,
 				"ROW": 38
 			},
@@ -9360,6 +9734,7 @@
 				"filename": "LC09_L1TP_020037_20221018_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-18T16:19:23.784237Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 20,
 				"ROW": 37
 			},
@@ -9385,6 +9760,7 @@
 				"filename": "LC09_L1TP_020036_20221018_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-18T16:18:59.893222Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 20,
 				"ROW": 36
 			},
@@ -9410,6 +9786,7 @@
 				"filename": "LC09_L1TP_020035_20221018_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-18T16:18:36.002205Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 20,
 				"ROW": 35
 			},
@@ -9435,6 +9812,7 @@
 				"filename": "LC09_L1TP_020034_20221018_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjghpujpjs3od4un3jpj5e4e4yrrmlue5ozaxvuc5wgti5bljrgni",
 				"datetime": "2022-10-18T16:18:12.115425Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 20,
 				"ROW": 34
 			},
@@ -9460,6 +9838,7 @@
 				"filename": "LC09_L1GT_020033_20221018_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-18T16:17:48.224411Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 20,
 				"ROW": 33
 			},
@@ -9485,6 +9864,7 @@
 				"filename": "LC09_L1GT_020032_20221018_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-18T16:17:24.333396Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 20,
 				"ROW": 32
 			},
@@ -9510,6 +9890,7 @@
 				"filename": "LC09_L1GT_141212_20221018_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-18T05:57:02.250077Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 141,
 				"ROW": 212
 			},
@@ -9535,6 +9916,7 @@
 				"filename": "LC09_L1TP_045031_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-17T18:51:30.785823Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 45,
 				"ROW": 31
 			},
@@ -9560,6 +9942,7 @@
 				"filename": "LC09_L1TP_045026_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqac2aydguwfo7yihxrzadvz2lblwt27rau2qegcpl3ovy5okwgqgq",
 				"datetime": "2022-10-17T18:49:31.356162Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 45,
 				"ROW": 26
 			},
@@ -9585,6 +9968,7 @@
 				"filename": "LC09_L1GT_029040_20221017_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-17T17:16:12.708511Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 40
 			},
@@ -9610,6 +9994,7 @@
 				"filename": "LC09_L1GT_029039_20221017_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-17T17:15:48.813261Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 39
 			},
@@ -9635,6 +10020,7 @@
 				"filename": "LC09_L1GT_029038_20221017_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqivomklwxl5efxvembzoazqmk4jic5ipcrkosowlfewrhm2kvpeki",
 				"datetime": "2022-10-17T17:15:24.918010Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 38
 			},
@@ -9660,6 +10046,7 @@
 				"filename": "LC09_L1TP_029037_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:15:01.022756Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 37
 			},
@@ -9685,6 +10072,7 @@
 				"filename": "LC09_L1TP_029036_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqjsl63imxdjebsda5vxswmcbjwpocmkiew64qiob2qbt2upypnmmi",
 				"datetime": "2022-10-17T17:14:37.131742Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 36
 			},
@@ -9710,6 +10098,7 @@
 				"filename": "LC09_L1TP_029035_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:14:13.244962Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 35
 			},
@@ -9735,6 +10124,7 @@
 				"filename": "LC09_L1TP_029034_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:13:49.353948Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 34
 			},
@@ -9760,6 +10150,7 @@
 				"filename": "LC09_L1TP_029033_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:13:25.458696Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 33
 			},
@@ -9785,6 +10176,7 @@
 				"filename": "LC09_L1TP_029032_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:13:01.571916Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 32
 			},
@@ -9810,6 +10202,7 @@
 				"filename": "LC09_L1TP_029031_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:12:37.685138Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 31
 			},
@@ -9835,6 +10228,7 @@
 				"filename": "LC09_L1TP_029030_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:12:13.794122Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 30
 			},
@@ -9860,6 +10254,7 @@
 				"filename": "LC09_L1TP_029029_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:11:49.907343Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 29
 			},
@@ -9885,6 +10280,7 @@
 				"filename": "LC09_L1TP_029028_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:11:26.024799Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 28
 			},
@@ -9910,6 +10306,7 @@
 				"filename": "LC09_L1TP_029027_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:11:02.138020Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 27
 			},
@@ -9935,6 +10332,7 @@
 				"filename": "LC09_L1TP_029026_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqnbpytnu3bwglbvkoogujmzkepqzgb55bpm7dxi4emn2x7x52eiki",
 				"datetime": "2022-10-17T17:10:38.255477Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 29,
 				"ROW": 26
 			},
@@ -9960,6 +10358,7 @@
 				"filename": "LC09_L1TP_013036_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-17T15:35:43.937866Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 13,
 				"ROW": 36
 			},
@@ -9985,6 +10384,7 @@
 				"filename": "LC09_L1TP_013032_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-17T15:34:08.378040Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 13,
 				"ROW": 32
 			},
@@ -10010,6 +10410,7 @@
 				"filename": "LC09_L1GT_013031_20221017_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-17T15:33:44.491261Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 13,
 				"ROW": 31
 			},
@@ -10035,6 +10436,7 @@
 				"filename": "LC09_L1GT_013030_20221017_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-17T15:33:20.604481Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 13,
 				"ROW": 30
 			},
@@ -10060,6 +10462,7 @@
 				"filename": "LC09_L1TP_013029_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-17T15:32:56.717703Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 13,
 				"ROW": 29
 			},
@@ -10085,6 +10488,7 @@
 				"filename": "LC09_L1TP_013028_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-17T15:32:32.830923Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 13,
 				"ROW": 28
 			},
@@ -10110,6 +10514,7 @@
 				"filename": "LC09_L1TP_013027_20221017_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqch3sjrenamis4z54cfnb57ut7zhpmmqulzxtgpwy37hmvtkkoeny",
 				"datetime": "2022-10-17T15:32:08.944144Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 13,
 				"ROW": 27
 			},
@@ -10135,6 +10540,7 @@
 				"filename": "LC09_L1GT_134212_20221017_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqna2gf7d4tp4dpcyawbyilwraw6l6hnsaws6cqqtdoexj3kmelkky",
 				"datetime": "2022-10-17T05:13:46.315907Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 134,
 				"ROW": 212
 			},
@@ -10160,6 +10566,7 @@
 				"filename": "LC09_L1TP_022040_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:32:56.685384Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 40
 			},
@@ -10185,6 +10592,7 @@
 				"filename": "LC09_L1TP_022039_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:32:32.785895Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 39
 			},
@@ -10210,6 +10618,7 @@
 				"filename": "LC09_L1TP_022038_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:32:08.899117Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 38
 			},
@@ -10235,6 +10644,7 @@
 				"filename": "LC09_L1TP_022037_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:31:44.999630Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 37
 			},
@@ -10260,6 +10670,7 @@
 				"filename": "LC09_L1TP_022036_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:31:21.112850Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 36
 			},
@@ -10285,6 +10696,7 @@
 				"filename": "LC09_L1GT_022035_20221016_20230325_02_T2_SZA.TIF",
 				"piece_cid": "baga6ea4seaqolywtx6zntgb35wlosnupt6l6trihyq7muqynn66ol7fufmfdsba",
 				"datetime": "2022-10-16T16:30:57.217598Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 35
 			},
@@ -10310,6 +10722,7 @@
 				"filename": "LC09_L1TP_022034_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:30:33.326583Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 34
 			},
@@ -10335,6 +10748,7 @@
 				"filename": "LC09_L1TP_022033_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:30:09.439804Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 33
 			},
@@ -10360,6 +10774,7 @@
 				"filename": "LC09_L1TP_022032_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:29:45.553025Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 32
 			},
@@ -10385,6 +10800,7 @@
 				"filename": "LC09_L1TP_022031_20221016_20230325_02_T1_SZA.TIF",
 				"piece_cid": "baga6ea4seaqfzwcny3bcug7mgmbcajsckjixplk33j6zghqjtewe3cjl2zdz2ma",
 				"datetime": "2022-10-16T16:29:21.662009Z",
+				"collectionName": "landsat-c2l1",
 				"PATH": 22,
 				"ROW": 31
 			},
