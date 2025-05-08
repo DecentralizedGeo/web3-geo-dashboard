@@ -3,15 +3,16 @@
 	import mapboxgl, { Map } from 'mapbox-gl';
 	import { ethers } from 'ethers';
 	import { onMount, onDestroy } from 'svelte';
-	import type { Web3EnrichedMapboxFeature, metadata, RequestRedirect, RequestInit } from '../types';
-	import Modal from './modal.svelte';
+	import type { Web3EnrichedMapboxFeature, RequestRedirect, RequestInit } from '../types';
+	// @ts-ignore
+	import Modal from './modal.svelte'; // @ts-ignore
 	import AddLayer from './components/addLayer.svelte';
-	import Sidebar from './components/sidebar.svelte';
+	import Sidebar from './components/sidebar.svelte'; // @ts-ignore
 	import Accordion from './accordion.svelte';
 	import Searchbar from './components/searchbar.svelte';
 	import Veda from './components/veda.svelte';
-	import axios from 'axios';
-	import { Metadata } from '../utils/metadata';
+	import { geocodeQuery } from '../utils/geocode';
+	import SwapLayer from './components/swapLayer.svelte';
 
 	let showModal = false;
 	let showVeda = false;
@@ -25,7 +26,10 @@
 	let cid = '';
 	let stac_endpoint = 'https://stac.easierdata.info';
 	let geojson_endpoint =
-		'https://raw.githubusercontent.com/easierdata/web3-geo-dashboard/feat-custom-geojson/data_processing/cid_enriched.geojson';
+		'https://raw.githubusercontent.com/DecentralizedGeo/web3-geo-dashboard/api-refactor/data_processing/demo-layers/HLSS30_2.0-B02.geojson';
+	// 	'https://raw.githubusercontent.com/easierdata/web3-geo-dashboard/api-refactor/data_processing/cid_enriched.geojson';
+	// let geojson_endpoint =
+	// 	'https://raw.githubusercontent.com/DecentralizedGeo/web3-geo-dashboard/main/data_processing/demo-layers/HLSS30_2.0-B02.geojson';
 
 	let deals: any = {};
 	let providers: any = [];
@@ -38,31 +42,15 @@
 	let cidArray: string[] = [];
 	let exportfeatures: any[] = [];
 
+	// Layer management
+	let geoJSONOptions: { value: string; label: string }[] = [];
+	let showSwapLayer = false;
+	let swapGeoJSON = '';
+	let selectedSwapGeoJSON = '';
+
 	let autocomplete: any;
 
 	let map: Map;
-
-	async function getPopupMetadata(cid: string): Promise<metadata | undefined> {
-		const requestOptions: RequestInit = {
-			method: 'GET',
-			redirect: 'follow' as RequestRedirect
-		};
-
-		try {
-			const response = await fetch(
-				`https://easier-dashboard-api.vercel.app/api/metadata/${cid}`,
-				requestOptions
-			);
-			if (!response.ok) {
-				throw new Error(`Error fetching metadata for CID ${cid}: ${response.statusText}`);
-			}
-			const data: metadata = await response.json();
-			return data;
-		} catch (error) {
-			console.error(`Failed to fetch metadata for CID ${cid}:`, error);
-			return undefined;
-		}
-	}
 
 	async function getIPFSMetadata(cid: string): Promise<number> {
 		const requestOptions: RequestInit = {
@@ -72,7 +60,8 @@
 
 		try {
 			const response = await fetch(
-				`https://ipfs-check-backend.ipfs.io/check?cid=${cid}&multiaddr=&ipniIndexer=https://cid.contact&timeoutSeconds=60`,
+				// `https://ipfs-check-backend.ipfs.io/check?cid=${cid}&multiaddr=&ipniIndexer=https://cid.contact&timeoutSeconds=60`,
+				`https://delegated-ipfs.dev/routing/v1/providers/${cid}`,
 				requestOptions
 			);
 			if (!response.ok) {
@@ -81,7 +70,12 @@
 			const data = await response.json();
 
 			// return the number of objects where connectionError is ""
-			const ipfsCount = data.filter((item: any) => item.connectionError === '').length;
+			// const ipfsCount = data.filter((item: any) => item.ID && item.ConnectionError === "").length
+			// alternatively return the number of objects where ID is not null
+			// const ipfsCount = data && Array.isArray(data) ? data.filter((item: any) => item.ID).length : 0;
+
+			// Return count from delegated-ipfs endpoint
+			const ipfsCount = data.Providers ? data.Providers.length : 0;
 			return ipfsCount;
 		} catch (error) {
 			console.error(`Failed to fetch metadata for CID ${cid}:`, error);
@@ -89,38 +83,12 @@
 		}
 	}
 
-	async function getFilecoinMetadata(cid: string): Promise<any> {
-		try {
-			const cidContactData = await axios.get(`https://cid.contact/cid/${cid}`, {
-				headers: {
-					'Content-Type': 'application/json'
-				}
-			});
-
-			// Fetch deal metadata
-			const meta = new Metadata();
-			const metadata = await meta.onSearch(cid);
-
-			return {
-				...metadata,
-				Providers:
-					cidContactData.status === 200
-						? cidContactData.data.MultihashResults[0].ProviderResults
-						: {}
-			};
-		} catch (error) {
-			console.error(`Failed to fetch metadata for CID ${cid}:`, error);
-			return {};
-		}
-	}
-
 	async function createPopupContent(feature: Web3EnrichedMapboxFeature): Promise<HTMLDivElement> {
 		const properties = feature.properties;
 		console.log(properties);
-
 		try {
 			const response = await fetch(
-				`https://api.tools.d.interplanetary.one/api/search?limit=10&page=1&filter=${properties.cid}&isActive=1`,
+				`https://api.tools.d.interplanetary.one/api/search?limit=10&page=1&filter=${properties.piece_cid}&isActive=1`,
 				{
 					method: 'GET'
 				}
@@ -132,62 +100,113 @@
 			console.log(err);
 		}
 
+		console.log(properties);
+		// const metadata = await retrieveMetadata(properties.PATH, properties.ROW, stac_endpoint);
+		// console.log(`Metadata: ${JSON.stringify(metadata)}`);
+
 		const pinCount = await getIPFSMetadata(properties.cid);
-		const filecoinMetadata = await getFilecoinMetadata(properties.cid);
-
-		providers = [];
-		// const metadata = await getPopupMetadata(properties.cid);
-		// if (!metadata) {
-		// 	console.warn(`No metadata found for CID ${properties.cid}.`);
-		// }
-
-		providers = filecoinMetadata?.Providers;
-
+		let deals_count = deals.data ? deals.data.length : 0;
 		const content = document.createElement('div');
 		content.innerHTML = `
-		<b>Inspect Tile</b><br>
-		<span class="name-text">Name: ${properties.filename}</span><br>
-		<span class="cid-text">Filecoin CID: ${properties.cid}</span><br>
-		<span class="ipfs-cid-text">IPFS CID: ${properties.ipfs_cid}</span><br>
-		Row: ${properties.ROW}<br>
-		Path: ${properties.PATH}<br>
-		Date acquired: ${new Date(properties.datetime).toLocaleDateString('en-US', {
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">Item ID:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.item_id
+			}</div>
+		</div>
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">Name:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.filename
+			}</div>
+		</div>
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">Filecoin Piece CID:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.piece_cid
+			}</div>
+		</div>
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">IPFS CID:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.cid
+			}</div>
+		<strong style="font-size: 1.1em;">Date acquired:</strong> ${new Date(
+			properties.datetime
+		).toLocaleDateString('en-US', {
 			year: 'numeric',
 			month: 'long',
 			day: 'numeric'
 		})}<br>
-		<span class="pins">Pinned on ${
+		<span class="pins"><strong style="font-size: 1.1em;">Pinned on:</strong> ${
 			pinCount ?? 'N/A'
-		} IPFS nodes</span><br> <!-- Example of including metadata -->
-		Stored in ${
-			filecoinMetadata?.Providers.length ?? 'N/A'
-		} Filecoin Peers<br> <!-- Example of including metadata -->
-		${
-			filecoinMetadata?.unsealed ?? 'N/A'
-		} unsealed copies available<br> <!-- Example of including metadata -->
-		<div class="MetamaskContainer">
+		} IPFS nodes</span><br>
+        <strong style="font-size: 1.1em;">Stored in:</strong> ${
+					deals_count > 0
+						? `<a href="https://filecoin.tools/search?q=${properties.piece_cid}" target="_blank" rel="noopener noreferrer" style="color: #7eb6ff; text-decoration: underline;">${deals_count} Filecoin Deals</a>`
+						: `${deals_count ?? 'N/A'} Filecoin Deals`
+				}<br> 		<div class="MetamaskContainer">
 			<div class="connectedState" style="display: none;">Connected</div>
 		</div>
+		<div class="downloadContainer">
+			<strong style="font-size: 1.1em;">Download From:</strong>
+		</div>
+		<div class="otherContainer" style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;"></div>
 		`;
 
 		const pinButton = document.createElement('button');
 		pinButton.setAttribute('id', 'pinButton');
 		pinButton.textContent = 'Pin to local';
+		pinButton.className = 'downloadButton';
 
 		const fetchButton = document.createElement('button');
 		fetchButton.textContent = 'Fetch from cold storage';
+		fetchButton.id = 'fetchButton';
+		fetchButton.className = 'downloadButton';
 		fetchButton.addEventListener('click', connectWallet);
 
 		const codeButton = document.createElement('button');
 		codeButton.textContent = 'More';
+		codeButton.id = 'codeButton';
+		codeButton.className = 'downloadButton';
 		codeButton.addEventListener('click', () => {
 			showModal = true;
-			cid = properties.ipfs_cid;
+			cid = properties.cid;
 		});
 
-		content.appendChild(pinButton);
-		content.appendChild(fetchButton);
-		content.appendChild(codeButton);
+		const downloadIpfsButton = document.createElement('button');
+		downloadIpfsButton.id = 'downloadIpfs';
+		downloadIpfsButton.className = 'downloadButton';
+		downloadIpfsButton.textContent = 'IPFS';
+		downloadIpfsButton.addEventListener('click', () => {
+			window.open(
+				`https://gateway.easierdata.info/ipfs/${properties.cid}?filename=${encodeURIComponent(
+					properties.filename
+				)}`,
+				'_blank'
+			);
+		});
+
+		const downloadFilecoinButton = document.createElement('button');
+		downloadFilecoinButton.id = 'downloadFilecoin';
+		downloadFilecoinButton.className = 'downloadButton';
+		downloadFilecoinButton.textContent = 'Filecoin Storage Provider';
+		downloadFilecoinButton.addEventListener('click', () => {
+			window.open(`http://f02639429.infrafolio.com/ipfs/${properties.cid}`, '_blank');
+		});
+
+		const downloadContainer = content.querySelector('.downloadContainer');
+		if (downloadContainer) {
+			downloadContainer.appendChild(downloadIpfsButton);
+			downloadContainer.appendChild(downloadFilecoinButton);
+		}
+
+		const otherContainer = content.querySelector('.otherContainer');
+		if (otherContainer) {
+			otherContainer.appendChild(pinButton);
+			otherContainer.appendChild(fetchButton);
+			otherContainer.appendChild(codeButton);
+		}
 
 		return content;
 	}
@@ -477,7 +496,7 @@
 
 			selectedFeatures = features;
 			features.forEach((feature) => {
-				if (feature.properties) cidArray.push(feature.properties.ipfs_cid);
+				if (feature.properties) cidArray.push(feature.properties.cid);
 			});
 
 			const mergedPathRows = features.map(
@@ -529,11 +548,15 @@
 			['==', 'ROW', feature.properties.ROW]
 		]);
 
-		const popup_content = await createPopupContent(feature);
-		const popup = new mapboxgl.Popup()
+		// const popup_content = await createPopupContent(feature);
+		const popup = new mapboxgl.Popup({ className: 'custom-popup' })
 			.setLngLat(coordinates)
-			.setDOMContent(popup_content)
+			.setDOMContent(document.createTextNode('Loading metadata...'))
 			.addTo(map);
+
+		createPopupContent(feature).then((popupContent) => {
+			popup.setDOMContent(popupContent);
+		});
 
 		popup.on('close', function () {
 			map.setFilter(id, ['all', ['==', 'PATH', ''], ['==', 'ROW', '']]);
@@ -613,18 +636,12 @@
 		} else if (searchTerm.includes(' ') && searchTerm.length > 3) {
 			console.log(searchTerm);
 
-			const response = await fetch(
-				`https://easier-dashboard-m5eh5d9da-matthewnanas.vercel.app/api/geocode/${searchTerm}`
-			);
-			if (!response.ok) {
-				throw new Error(`Error fetching geolocation for ${searchTerm}: ${response.statusText}`);
-			}
-			const data = await response.json();
+			const pathrow = await geocodeQuery(searchTerm);
 
 			map.setFilter('LANDSAT_SCENE_OUTLINES-highlighted', [
 				'all',
-				['==', 'PATH', data.path],
-				['==', 'ROW', data.row]
+				['==', 'PATH', pathrow.path],
+				['==', 'ROW', pathrow.row]
 			]);
 		} else {
 			// Clear filter
@@ -664,6 +681,27 @@
 				showAddLayer = true;
 				//addGeojson = '';
 				addStac = '';
+			});
+
+			return div;
+		}
+	}
+
+	class SwapLayerButton {
+		onAdd() {
+			const div = document.createElement('div');
+			div.className = 'mapboxgl-ctrl mapboxgl-ctrl-group';
+			div.innerHTML = `
+            <button title="Swap Base Layer">
+                <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="font-size: 20px;">
+                    <path d="M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z"></path>
+                </svg>
+            </button>`;
+			div.addEventListener('contextmenu', (e) => e.preventDefault());
+			div.addEventListener('click', () => {
+				showSwapLayer = true;
+				swapGeoJSON = '';
+				selectedSwapGeoJSON = '';
 			});
 
 			return div;
@@ -726,9 +764,11 @@
 		});
 
 		const addLayerButton: any = new LayerButton();
+		const swapLayerButton: any = new SwapLayerButton();
 		const defaultControls = new mapboxgl.NavigationControl();
 		map.addControl(defaultControls, 'top-right');
 		map.addControl(addLayerButton, 'bottom-right');
+		map.addControl(swapLayerButton, 'bottom-right');
 
 		map.on('load', () => {
 			canvas = map.getCanvasContainer();
@@ -770,7 +810,86 @@
 				}
 			});
 		});
+
+		try {
+			const response = await fetch('/api/geojson-files');
+			geoJSONOptions = await response.json();
+		} catch (error) {
+			console.error('Failed to fetch GeoJSON files for AddLayer:', error);
+		}
 	});
+
+	function handleSwapGeoJSONSelect(event: any) {
+		const selected = event.target.value;
+		selectedSwapGeoJSON = selected;
+		if (selected) {
+			swapGeoJSON = selected;
+		}
+	}
+
+	async function swapBaseLayer() {
+		if (!swapGeoJSON) {
+			alert('Please select a GeoJSON file to swap to');
+			return;
+		}
+
+		try {
+			const response = await fetch(swapGeoJSON);
+			const geoJsonData = await response.json();
+
+			if (map.getLayer('LANDSAT_SCENE_OUTLINES-highlighted')) {
+				map.removeLayer('LANDSAT_SCENE_OUTLINES-highlighted');
+			}
+			if (map.getLayer('LANDSAT_SCENE_OUTLINES-layer')) {
+				map.removeLayer('LANDSAT_SCENE_OUTLINES-layer');
+			}
+			if (map.getSource('LANDSAT_SCENE_OUTLINES')) {
+				map.removeSource('LANDSAT_SCENE_OUTLINES');
+			}
+
+			geojson_endpoint = swapGeoJSON;
+
+			map.addSource('LANDSAT_SCENE_OUTLINES', {
+				type: 'geojson',
+				data: geoJsonData
+			});
+
+			map.addLayer({
+				id: 'LANDSAT_SCENE_OUTLINES-layer',
+				type: 'fill',
+				source: 'LANDSAT_SCENE_OUTLINES',
+				paint: {
+					'fill-color': 'grey',
+					'fill-opacity': 0.2,
+					'fill-outline-color': 'black'
+				}
+			});
+
+			map.addLayer({
+				id: 'LANDSAT_SCENE_OUTLINES-highlighted',
+				type: 'fill',
+				source: 'LANDSAT_SCENE_OUTLINES',
+				paint: {
+					'fill-outline-color': 'black',
+					'fill-color': '#484896',
+					'fill-opacity': 0.75
+				},
+				filter: ['all', ['==', 'PATH', ''], ['==', 'ROW', '']]
+			});
+
+			map.on('click', 'LANDSAT_SCENE_OUTLINES-layer', (e) => handleClick(e, map) as any);
+			map.on('mouseenter', 'LANDSAT_SCENE_OUTLINES-layer', handleMouseEnter);
+			map.on('mouseleave', 'LANDSAT_SCENE_OUTLINES-layer', handleMouseLeave);
+
+			selectedFeatures = [];
+			cidArray = [];
+
+			showSwapLayer = false;
+		} catch (error) {
+			console.error('Failed to swap GeoJSON layer:', error);
+			alert('Failed to swap GeoJSON layer.');
+		}
+	}
 
 	function onPlaceChanged() {
 		let address = autocomplete.getPlace();
@@ -909,6 +1028,26 @@
 	</form>
 </AddLayer>
 
+<SwapLayer bind:showSwapLayer>
+	<h3 slot="header">Swap Base Layer</h3>
+	<form>
+		<select
+			class="url-input"
+			on:change={handleSwapGeoJSONSelect}
+			bind:value={selectedSwapGeoJSON}
+			style="width: 100%;"
+		>
+			<option value="">Select a GeoJSON to swap to...</option>
+			{#each geoJSONOptions as option}
+				<option value={option.value}>{option.label}</option>
+			{/each}
+		</select>
+
+		<br />
+		<button style="margin-top: 15px;" on:click={swapBaseLayer}>Swap Layer</button>
+	</form>
+</SwapLayer>
+
 {#if selectedFeatures.length > 0 || stac_api_layers.length > 0}
 	<Sidebar
 		bind:stac_api_layers
@@ -956,5 +1095,11 @@
 
 	.dealRow th {
 		padding-left: 15px;
+	}
+
+	:global(.custom-popup .mapboxgl-popup-content) {
+		width: 435; /* Adjust this value to your desired width */
+		/* You can also add other styles like padding, max-width, etc. */
+		padding: 10px;
 	}
 </style>

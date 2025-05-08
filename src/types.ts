@@ -1,7 +1,7 @@
 type ISODateString = `${number}-${number}-${number}T${number}:${number}:${number}.${number}Z`;
 
 interface CustomFeatureProperties {
-	piece: string;
+	piece_cid: string;
 	ipfs_cid: string;
 	ROW: string;
 	PATH: string;
@@ -9,6 +9,8 @@ interface CustomFeatureProperties {
 	datetime: ISODateString;
 	s3: string;
 	filename: string;
+	item_id: string;
+	collectionName: string;
 	// IPFS_NODES: number;
 	// FIL_DEALS: number;
 	// ON_S3: boolean;
