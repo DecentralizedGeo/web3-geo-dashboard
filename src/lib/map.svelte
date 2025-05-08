@@ -532,7 +532,7 @@
 		]);
 
 		// const popup_content = await createPopupContent(feature);
-		const popup = new mapboxgl.Popup()
+		const popup = new mapboxgl.Popup({ className: 'custom-popup' })
 			.setLngLat(coordinates)
 			.setDOMContent(document.createTextNode('Loading metadata...'))
 			.addTo(map);
@@ -1078,5 +1078,11 @@
 
 	.dealRow th {
 		padding-left: 15px;
+	}
+
+	:global(.custom-popup .mapboxgl-popup-content) {
+		width: 435; /* Adjust this value to your desired width */
+		/* You can also add other styles like padding, max-width, etc. */
+		padding: 10px;
 	}
 </style>
