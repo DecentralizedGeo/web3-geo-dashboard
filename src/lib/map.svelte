@@ -26,7 +26,7 @@
 	let cid = '';
 	let stac_endpoint = 'https://stac.easierdata.info';
 	let geojson_endpoint =
-		'https://raw.githubusercontent.com/DecentralizedGeo/web3-geo-dashboard/api-refactor/data_processing/demo-layers/HLSS30_2.0-B02.geojson';
+		'https://raw.githubusercontent.com/DecentralizedGeo/web3-geo-dashboard/main/data_processing/demo-layers/HLSS30_2.0-B02.geojson';
 	// 	'https://raw.githubusercontent.com/easierdata/web3-geo-dashboard/api-refactor/data_processing/cid_enriched.geojson';
 	// let geojson_endpoint =
 	// 	'https://raw.githubusercontent.com/DecentralizedGeo/web3-geo-dashboard/main/data_processing/demo-layers/HLSS30_2.0-B02.geojson';
