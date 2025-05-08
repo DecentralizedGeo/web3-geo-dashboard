@@ -76,7 +76,8 @@ export async function extractAndSaveFeatures(
 					s3: s3,
 					filename: filename,
 					piece_cid: piece_cid,
-					datetime: feature.properties.datetime || ''
+					datetime: feature.properties.datetime || '',
+					collectionName: feature.collection
 				};
 
 				// Grab the collections properties from the features
