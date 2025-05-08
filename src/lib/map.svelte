@@ -156,9 +156,7 @@
 		<div class="downloadContainer">
 			<strong style="font-size: 1.1em;">Download From:</strong>
 		</div>
-		<div class="otherContainer" style="align-items: center;">
-			<strong style="font-size: 1.1em;"></strong>
-		</div>
+		<div class="otherContainer" style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;"></div>
 		`;
 
 		const pinButton = document.createElement('button');
