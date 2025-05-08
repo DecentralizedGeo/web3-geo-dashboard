@@ -110,14 +110,9 @@
 		content.innerHTML = `
 		<div class="popup-item">
 			<strong style="font-size: 1.1em;">Item ID:</strong>
-			<a 
-				href="https://radiantearth.github.io/stac-browser/#/external/stac.easierdata.info/api/v1/pgstac/collections/${
-					properties.collectionName
-				}/items/${properties.item_id}" 
-				target="_blank" 
-				rel="noopener noreferrer"
-				style="display: block; background-color: #282c34; color: #7eb6ff; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word; text-decoration: none;"
-				>${properties.item_id}</a>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.item_id
+			}</div>
 		</div>
 		<div class="popup-item">
 			<strong style="font-size: 1.1em;">Name:</strong>
