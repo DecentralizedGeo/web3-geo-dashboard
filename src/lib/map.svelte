@@ -110,9 +110,14 @@
 		content.innerHTML = `
 		<div class="popup-item">
 			<strong style="font-size: 1.1em;">Item ID:</strong>
-			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
-				properties.item_id
-			}</div>
+			<a 
+				href="https://radiantearth.github.io/stac-browser/#/external/stac.easierdata.info/api/v1/pgstac/collections/${
+					properties.collectionName
+				}/items/${properties.item_id}" 
+				target="_blank" 
+				rel="noopener noreferrer"
+				style="display: block; background-color: #282c34; color: #7eb6ff; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word; text-decoration: none;"
+				>${properties.item_id}</a>
 		</div>
 		<div class="popup-item">
 			<strong style="font-size: 1.1em;">Name:</strong>
@@ -122,21 +127,18 @@
 		</div>
 		<div class="popup-item">
 			<strong style="font-size: 1.1em;">Filecoin Piece CID:</strong>
-			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
-				properties.piece_cid
-			}</div>
-		</div>
-		<div class="popup-item">
-			<strong style="font-size: 1.1em;">IPFS CID:</strong>
 			<a 
-				href="https://gateway.easierdata.info/ipfs/${properties.cid}?filename=${encodeURIComponent(
-			properties.filename
-		)}" 
+				href="https://filecoin.tools/search?q=${properties.piece_cid}" 
 				target="_blank" 
 				rel="noopener noreferrer"
 				style="display: block; background-color: #282c34; color: #7eb6ff; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word; text-decoration: none;"
-			>${properties.cid}</a>
+				>${properties.piece_cid}</a>
 		</div>
+		<div class="popup-item">
+			<strong style="font-size: 1.1em;">IPFS CID:</strong>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.cid
+			}</div>
 		<strong style="font-size: 1.1em;">Date acquired:</strong> ${new Date(
 			properties.datetime
 		).toLocaleDateString('en-US', {
@@ -151,26 +153,39 @@
 		<div class="MetamaskContainer">
 			<div class="connectedState" style="display: none;">Connected</div>
 		</div>
+		<div class="downloadContainer">
+			<strong style="font-size: 1.1em;">Download From:</strong>
+		</div>
+		<div class="otherContainer" style="align-items: center;">
+			<strong style="font-size: 1.1em;"></strong>
+		</div>
 		`;
 
 		const pinButton = document.createElement('button');
 		pinButton.setAttribute('id', 'pinButton');
 		pinButton.textContent = 'Pin to local';
+		pinButton.className = 'downloadButton';
 
 		const fetchButton = document.createElement('button');
 		fetchButton.textContent = 'Fetch from cold storage';
+		fetchButton.id = 'fetchButton';
+		fetchButton.className = 'downloadButton';
 		fetchButton.addEventListener('click', connectWallet);
 
 		const codeButton = document.createElement('button');
 		codeButton.textContent = 'More';
+		codeButton.id = 'codeButton';
+		codeButton.className = 'downloadButton';
 		codeButton.addEventListener('click', () => {
 			showModal = true;
 			cid = properties.cid;
 		});
 
-		const downloadIpfs = document.createElement('button');
-		downloadIpfs.textContent = 'Download IPFS';
-		downloadIpfs.addEventListener('click', () => {
+		const downloadIpfsButton = document.createElement('button');
+		downloadIpfsButton.id = 'downloadIpfs';
+		downloadIpfsButton.className = 'downloadButton';
+		downloadIpfsButton.textContent = 'IPFS';
+		downloadIpfsButton.addEventListener('click', () => {
 			window.open(
 				`https://gateway.easierdata.info/ipfs/${properties.cid}?filename=${encodeURIComponent(
 					properties.filename
@@ -179,17 +194,32 @@
 			);
 		});
 
-		const downloadFilecoin = document.createElement('button');
-		downloadFilecoin.textContent = 'Download Filecoin';
-		downloadFilecoin.addEventListener('click', () => {
-			window.open(`http://f02639429.infrafolio.com/ipfs/{cid}${properties.piece_cid}`, '_blank');
+		const downloadFilecoinButton = document.createElement('button');
+		downloadFilecoinButton.id = 'downloadFilecoin';
+		downloadFilecoinButton.className = 'downloadButton';
+		downloadFilecoinButton.textContent = 'Filecoin Storage Provider';
+		downloadFilecoinButton.addEventListener('click', () => {
+			window.open(`http://f02639429.infrafolio.com/ipfs/${properties.cid}`, '_blank');
 		});
 
-		content.appendChild(pinButton);
-		content.appendChild(fetchButton);
-		content.appendChild(codeButton);
-		content.appendChild(downloadIpfs);
-		content.appendChild(downloadFilecoin);
+		const downloadContainer = content.querySelector('.downloadContainer');
+		if (downloadContainer) {
+			downloadContainer.appendChild(downloadIpfsButton);
+			downloadContainer.appendChild(downloadFilecoinButton);
+		}
+
+		const otherContainer = content.querySelector('.otherContainer');
+		if (otherContainer) {
+			otherContainer.appendChild(pinButton);
+			otherContainer.appendChild(fetchButton);
+			otherContainer.appendChild(codeButton);
+		}
+
+		// content.appendChild(pinButton);
+		// content.appendChild(fetchButton);
+		// content.appendChild(codeButton);
+		// content.appendChild(downloadIpfs);
+		// content.appendChild(downloadFilecoin);
 
 		return content;
 	}
