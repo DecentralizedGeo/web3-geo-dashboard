@@ -7,7 +7,7 @@ interface Geocode {
 
 export async function geocodeQuery(address: string): Promise<Geocode> {
 	const response = await axios(
-		`https://maps.googleapis.com/maps/api/geocode/json?address=${address.replace(' ', '%20')}&key=${
+		`https://maps.googleapis.com/maps/api/geocode/json?address=${address.replace(/ /g, '%20')}&key=${
 			import.meta.env.VITE_GOOGLEAPIKEY
 		}`,
 		{
