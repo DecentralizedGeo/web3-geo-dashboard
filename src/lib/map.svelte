@@ -122,12 +122,9 @@
 		</div>
 		<div class="popup-item">
 			<strong style="font-size: 1.1em;">Filecoin Piece CID:</strong>
-			<a 
-				href="https://filecoin.tools/search?q=${properties.piece_cid}" 
-				target="_blank" 
-				rel="noopener noreferrer"
-				style="display: block; background-color: #282c34; color: #7eb6ff; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word; text-decoration: none;"
-				>${properties.piece_cid}</a>
+			<div style="background-color: #282c34; color: #e6e6e6; padding: 5px; border-radius: 3px; margin-top: 2px; margin-bottom: 8px; font-family: monospace; word-wrap: break-word; overflow-wrap: break-word;">${
+				properties.piece_cid
+			}</div>
 		</div>
 		<div class="popup-item">
 			<strong style="font-size: 1.1em;">IPFS CID:</strong>
@@ -144,8 +141,11 @@
 		<span class="pins"><strong style="font-size: 1.1em;">Pinned on:</strong> ${
 			pinCount ?? 'N/A'
 		} IPFS nodes</span><br>
-		<strong style="font-size: 1.1em;">Stored in:</strong> ${deals_count ?? 'N/A'} Filecoin Deals<br> 
-		<div class="MetamaskContainer">
+        <strong style="font-size: 1.1em;">Stored in:</strong> ${
+					deals_count > 0
+						? `<a href="https://filecoin.tools/search?q=${properties.piece_cid}" target="_blank" rel="noopener noreferrer" style="color: #7eb6ff; text-decoration: underline;">${deals_count} Filecoin Deals</a>`
+						: `${deals_count ?? 'N/A'} Filecoin Deals`
+				}<br> 		<div class="MetamaskContainer">
 			<div class="connectedState" style="display: none;">Connected</div>
 		</div>
 		<div class="downloadContainer">
