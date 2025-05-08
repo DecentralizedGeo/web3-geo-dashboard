@@ -110,7 +110,7 @@ async function fetchCIDs(path: string, row: string, stacURL: string): Promise<ci
  * Fetch the number of deals
  *
  * @param {string} cid - The CID to fetch the deal information for
- * @returns {Promise<number>} - A promise tthat resolves to the number of deals
+ * @returns {Promise<number>} - A promise that resolves to the number of deals
  */
 async function fetchDeals(cid: string) {
 	try {
