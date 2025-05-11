@@ -4,10 +4,9 @@
 	import { ethers } from 'ethers';
 	import { onMount, onDestroy } from 'svelte';
 	import type { Web3EnrichedMapboxFeature, RequestRedirect, RequestInit } from '../types';
-	// @ts-ignore
-	import Modal from './modal.svelte'; // @ts-ignore
+	import Modal from './modal.svelte';
 	import AddLayer from './components/addLayer.svelte';
-	import Sidebar from './components/sidebar.svelte'; // @ts-ignore
+	import Sidebar from './components/sidebar.svelte';
 	import Accordion from './accordion.svelte';
 	import Searchbar from './components/searchbar.svelte';
 	import Veda from './components/veda.svelte';
