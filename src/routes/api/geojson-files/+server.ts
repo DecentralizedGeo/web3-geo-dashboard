@@ -35,7 +35,7 @@ export async function GET() {
 			'landsat-c2l1-VAA.geojson',
 			'landsat-c2l1-VZA.geojson'
 		].map((filename) => ({
-			value: `/data_processing/demo-layers/${filename}`,
+			value: `/demo-layers/${filename}`,
 			label: filename
 		}));
 
